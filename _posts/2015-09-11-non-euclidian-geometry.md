@@ -38,9 +38,9 @@ z = \sqrt{1+r^2}
 $$
 
 The projection reads
-\\[
+$$
 (r,\theta)\rightarrow (\frac{r}{\sqrt{1+r^2}+1},\theta)~.
-\\]
+$$
 
 Geometrically, this corresponds to the intersection of the line intersecting the horizontal plane and joining a point on the hyperboloid with the point of coordinates $$(0,0,-1)$$. This is an example of a **stereographic projection**.
 
