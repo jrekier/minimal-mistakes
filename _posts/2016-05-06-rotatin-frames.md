@@ -2,6 +2,7 @@
 title: Throwing balls in rotating frames
 header:
   image: nightsky.jpg
+use_math: true
 ---
 
 In my work, I often have to solve problems in non-inertial frames of reference such as the Navier-Stokes equation for fluid dynamics in a rotating container.
