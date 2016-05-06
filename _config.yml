@@ -11,7 +11,7 @@ title                    : "A Personal Page"
 title_separator          : "-"
 name                     : "J.Rekier"
 description              : "Random thoughts"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jrekier.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
