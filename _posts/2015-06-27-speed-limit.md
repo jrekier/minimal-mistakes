@@ -2,6 +2,7 @@
 title: What happens when you accelerate to reach the speed of light ?
 header:
   image: nightsky.jpg
+use_math: true
 ---
 
 The ultimate speed limit of the Universe is the speed of light which nothing can overtop. What would happen then to an object on which a constant force is exerted in one direction?

@@ -2,6 +2,7 @@
 title: Non-Euclidian Geometry
 header:
   image: nightsky.jpg
+use_math: true
 ---
 
 When I was thaught geometry at school, we used to draw shapes on paper such as squares and triangles. Sometimes, we even considered solids in 3D.
