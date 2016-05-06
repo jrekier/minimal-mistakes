@@ -12,10 +12,10 @@ The problem in question is the free motion of a point particle (say, a small bal
 
 The Lagrange function for the particle is simply the kinetic energy of the particle with its total velocity written as a combination of its own velocity plus the contribution to the rotation of the whole frame. One gets
 
-\begin{aligned}
-L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\
+\begin{align}
+L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\\\\\
   &= \frac{1}{2}m\left|\dot{\vec{r}}\right|^2+m~\vec{\omega}\cdot\left(\vec{r}\times\dot{\vec{r}}\right)+\frac{1}{2}m\left[\omega^2r^2-(\vec{\omega}\cdot\vec{r})^2\right]
-\end{aligned}
+\end{align}
 
 Imposing $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ and constraining the motion to the xy-plane, this becomes
 
@@ -25,9 +25,27 @@ $$
 
 The motion in the two directions can then be derived by using the Euler-Lagrange equations. The final result can be expressed as a system of first order differential equations with an interesting shape:
 
-$$
-\frac{d}{dt}\begin{pmatrix}x\\\dot{x}\\y\\\dot{y}\end{pmatrix}=\begin{pmatrix}0&1&0&0\\\omega^2&0&0&2\omega\\0&0&0&1\\0&-2\omega&\omega^2&0\end{pmatrix}\begin{pmatrix}x\\\dot{x}\\y\\\dot{y}\end{pmatrix}
-$$
+\begin{align}
+\frac{d}{dt}
+\begin{pmatrix}
+x\\\\\\
+\dot{x}\\\\\\
+y\\\\\\
+\dot{y}
+\end{pmatrix}
+=
+\begin{pmatrix}
+0&1&0&0\\\\\\
+\omega^2&0&0&2\omega\\\\\\
+0&0&0&1\\\\\\
+0&-2\omega&\omega^2&0
+\end{pmatrix}
+\begin{pmatrix}
+x\\\\\\
+\dot{x}\\\\\\
+y\\\\\\ \dot{y}
+\end{pmatrix}
+\end{align}
 
 Call the solution array $X(t)$ and the matrix on the right-hand-side $A[\omega]$, the formal solution to the system is then
 
@@ -37,24 +55,24 @@ $$
 
 The matrix exponential on the right-hand-side being the **propagator** of the system. For good measure, here is its full expression:
 
-$$
+\begin{align}
 e^{A[\omega]t}=\left(
 \begin{array}{cccc}
  \cos (t \omega )+t \omega  \sin (t \omega ) & t \cos (t \omega ) & \
-\sin (t \omega )-t \omega  \cos (t \omega ) & t \sin (t \omega ) \\
+\sin (t \omega )-t \omega  \cos (t \omega ) & t \sin (t \omega ) \\\\\\
  t \omega ^2 \cos (t \omega ) & \cos (t \omega )-t \omega  \sin (t \
 \omega ) & t \omega ^2 \sin (t \omega ) & t \omega  \cos (t \omega )+\
 \sin (t \omega
-) \\
+) \\\\\\
  t \omega  \cos (t \omega )-\sin (t \omega ) & -t \sin (t \omega ) & \
-\cos (t \omega )+t \omega  \sin (t \omega ) & t \cos (t \omega ) \\
+\cos (t \omega )+t \omega  \sin (t \omega ) & t \cos (t \omega ) \\\\\\
  -t \omega ^2 \sin (t \omega ) & -t \omega  \cos (t \omega )-\sin (t \
 \omega ) & t \omega ^2 \cos (t \omega ) & \cos (t \omega )-t \omega  \
 \sin (t
-\omega ) \\
+\omega ) \\\\\\
 \end{array}
 \right)\
-$$
+\end{align}
 
 To see the effect of this matrix better, let us apply it to some initial conditions: $X(0)^T=(0,1,0,0)$. This corresponds to the particle starting from the centre and moving outward in the x-direction with unit velocity. The motion of the particle then looks something like the following :
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory1.jpg)
@@ -62,39 +80,40 @@ In the above, the trajectory is shown in blue and the velocity vector at some gi
 
 Let's have a bit more fun and find the initial conditions to reach the centre of coordinates from some outside point ($x_0,y_0$) after a time $t_c$ (which stands for *central time*). These read
 
-$$
 \begin{align}
-v_x^0&=-\frac{x_0-y_0\omega t_c}{t_c}\\
+v_x^0&=-\frac{x_0-y_0\omega t_c}{t_c}\\\\\\
 v_y^0&=-\frac{y_0+x_0\omega t_c}{t_c}
 \end{align}
-$$
 
 We can understand these easily by setting $y_0=0$. which give
 
-$$
 \begin{align}
-v_x^0&=-\frac{x_0}{t_c}\\
+v_x^0&=-\frac{x_0}{t_c}\\\\\\
 v_y^0&=-\omega x_0
 \end{align}
-$$
 
 The first of these being the mean velocity necessary to reach the centre in the time $t=t_c$. The second being the velocity necessary to counteract the velocity of rotation at a distance $x_0$ from the centre.
 
 Setting $x_0=1$, the position vector of the particle reads
 
 $$
-\begin{align}
 \vec{r}=(1-\frac{t}{t_c})\cos \omega t~\vec{e}_x - (1-\frac{t}{t_c})\sin \omega t~\vec{e}_y
-\end{align}
 $$
 
 As an exercise, let's write this vector in the inertial frame by expressing the vector basis of the rotating frame {$\vec{e}_x$,$\vec{e}_y$} in terms of the inertial frame basis {$\vec{X}$,$\vec{Y}$}, the transformation is
 
-$$
 \begin{align}
-\begin{pmatrix}\vec{e}_x\\\vec{e}_y\end{pmatrix}=\begin{pmatrix}\cos\omega t & \sin\omega t\\ -\sin\omega t & \cos\omega t \end{pmatrix}\begin{pmatrix}\vec{X}\\\vec{Y}\end{pmatrix}
+\begin{pmatrix}
+\vec{e}_x\\\\\\
+\vec{e}_y
+\end{pmatrix}
+=
+\begin{pmatrix}
+\cos\omega t & \sin\omega t\\\\\\
+-\sin\omega t & \cos\omega t \end{pmatrix}\begin{pmatrix}\vec{X}\\\\\\
+\vec{Y}
+\end{pmatrix}
 \end{align}
-$$
 
 which gives the final result :
 
