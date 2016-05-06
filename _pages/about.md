@@ -1,5 +1,6 @@
 ---
 title: "About this blog"
+layout: single
 permalink: /pages/about/
 header:
   image: nightsky.jpg
