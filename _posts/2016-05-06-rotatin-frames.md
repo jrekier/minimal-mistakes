@@ -13,10 +13,10 @@ The problem in question is the free motion of a point particle (say, a small bal
 The Lagrange function for the particle is simply the kinetic energy of the particle with its total velocity written as a combination of its own velocity plus the contribution to the rotation of the whole frame. One gets
 
 $$
-\begin{align}
+\begin{aligned}
 L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\
   &= \frac{1}{2}m\left|\dot{\vec{r}}\right|^2+m~\vec{\omega}\cdot\left(\vec{r}\times\dot{\vec{r}}\right)+\frac{1}{2}m\left[\omega^2r^2-(\vec{\omega}\cdot\vec{r})^2\right]
-\end{align}
+\end{aligned}
 $$
 
 Imposing $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ and constraining the motion to the xy-plane, this becomes
