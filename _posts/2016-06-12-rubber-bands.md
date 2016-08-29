@@ -17,7 +17,7 @@ The simple and short answer is that the inner rubber band is made to fit within 
 In the language of differential geometry, the inner rubber band can be said to change its local curvature along its perimeter. It is possible to give a perfectly rigorous definition of curvature by considering the angle made by the tangent vector to a curve and some arbitrary axis:
 
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/curvature.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/curvature-1.png)
 
 The curvature is defined as the instantaneous variation of this angle along the curve. That is
 
@@ -102,7 +102,7 @@ The integral is most easily computed numerically
 Nyquist curve
 ------
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/nyquist.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/nyquist-1.png)
 
 This example is less trivial. The curve winds twice on itself and is parametrised as $\vec{\mathcal{\gamma}}(\theta)^T=(\text{Re}[\frac{1}{(-\frac{1}{2}+e^{it})^2}],-\text{Im}[\frac{1}{(-\frac{1}{2}+e^{it})^2}])$ and its curvature is
 \begin{equation}
