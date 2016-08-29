@@ -126,5 +126,5 @@ Which is indeed the correct expression for a particle moving in a straight line 
 The next picture shows the comparison between the trajectory as seen from the rotating and inertial frames with the corresponding velocity vectors :
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory2.jpg)
 
-One can see that the velocity of the particle is not zero when it reaches the centre of coordinates so that it does not just stays in place. The following picture shows the motion of the particle after it has reached the centre. Note that it is symmetrical and is a lovely way to close this post.
+One can see that the velocity of the particle is not zero when it reaches the centre of coordinates so that it does not just stay in place. The following picture shows the motion of the particle after it has reached the centre. Note that it is symmetrical and is a lovely way to close this post.
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory3.jpg)
