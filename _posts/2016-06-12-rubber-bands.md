@@ -26,6 +26,9 @@ k(s)=\frac{d\phi}{ds}~,
 \end{equation}
 where $s$ is a continuous real parameter varying continuously along the curve.
 
+In general, the curvature varies along the curve
+![alt]({{ site.url }}{{ site.baseurl }}/images/curvature.gif)
+
 An intuitive way of looking at this definition is to consider that the angle, $\Delta\phi$, spans a small element of curve that we identify as an arc of length $\Delta s$. We can then imagine that this arc is part of a circle tangent to the curve at the point of interest which has radius
 \begin{equation}
 \frac{1}{R(s)}=\lim_{\Delta s\rightarrow 0}\frac{\Delta\phi}{\Delta s}=\frac{d\phi}{ds}~.
