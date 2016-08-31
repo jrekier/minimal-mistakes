@@ -71,7 +71,7 @@ Now onto finding a more suited expression for the curvature. I will only be both
 \frac{x'(\lambda)}{\sqrt{x'^2+y'^2}}=\cos\phi
 \end{equation}
 \begin{equation}
-\frac{y'(\lambda)}{\sqrt{x'^2+y'^2}}=\cos\phi~.
+\frac{y'(\lambda)}{\sqrt{x'^2+y'^2}}=\sin\phi~.
 \end{equation}
 Then,
 \begin{equation}
