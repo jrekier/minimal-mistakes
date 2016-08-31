@@ -109,7 +109,7 @@ Nyquist curve
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/nyquist-1.png){: .align-center}
 
-This example is less trivial. The curve winds twice on itself and is parametrised as $\vec{\mathcal{\gamma}}(\theta)^T=(\text{Re}[\frac{1}{(-\frac{1}{2}+e^{it})^2}],-\text{Im}[\frac{1}{(-\frac{1}{2}+e^{it})^2}])$ and its curvature is
+This example is less trivial. The curve winds twice on itself and is parametrised as $\vec{\mathcal{\gamma}}(t)^T=(\text{Re}[\frac{1}{(-\frac{1}{2}+e^{it})^2}],-\text{Im}[\frac{1}{(-\frac{1}{2}+e^{it})^2}])$ and its curvature is
 \begin{equation}
 k(t)=-\frac{1}{16} (5-4 \cos (t))^2 (2 \cos (t)-7) \sqrt{-\frac{1}{(4 \cos
    (t)-5)^3}}~.
