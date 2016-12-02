@@ -10,6 +10,8 @@ One day after having eaten the lunch I had carried to work in a lousy box which 
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/rubbers1.jpg)
 
+
+
 As I really enjoy doing differential geometry, I wondered if there were any fundamental mathematical reasons why the inner rubber band had to take that shape. I had quite a bit of fun in the process of finding an answer to this question and it is my desire to share it here.
 
 The simple and short answer is that the inner rubber band is made to fit within a smaller surface. Full stop. We can be a more interesting than that.
@@ -27,6 +29,7 @@ k(s)=\frac{d\phi}{ds}~,
 where $s$ is a continuous real parameter varying continuously along the curve.
 
 In general, the curvature varies along the curve
+
 ![alt]({{ site.url }}{{ site.baseurl }}/images/curvature.gif)
 
 An intuitive way of looking at this definition is to consider that the angle, $\Delta\phi$, spans a small element of curve that we identify as an arc of length $\Delta s$. We can then imagine that this arc is part of a circle tangent to the curve at the point of interest which has radius
