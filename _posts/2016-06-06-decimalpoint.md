@@ -20,13 +20,13 @@ The right-hand side of the above can be written:
 \begin{equation}
 9 \sum_{n=1}^{\infty} 10^{-n}~.
 \end{equation}
-The series converge in $\mathbb{R}$ and is just the geometric series of reason $\frac{1}{10}$. Its value can thus be computed using the usual formula
+The series converges in $\mathbb{R}$ and is just the geometric series of reason $\frac{1}{10}$. Its value can thus be computed using the usual formula
 
 \begin{equation}
 \sum_{n=0}^{k-1} r^n=\frac{1-r^k}{1-r}~.
 \end{equation}
 with $0\leq r<1$,  $r^n\rightarrow 0$ and
 \begin{equation}
-\sum_{n=1}^{\infty} =\frac{1}{9}~.
+\sum_{n=1}^{\infty} 10^{-n}=\frac{1}{9}~.
 \end{equation}
 Which proves the identity. In the end, this is just a matter of playing around with infinity.
