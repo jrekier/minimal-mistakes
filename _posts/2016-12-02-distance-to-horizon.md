@@ -20,7 +20,7 @@ $$
 y = 1 + h -x\tan{\theta}~.
 $$
 
-In polar coordinates, $$(x,y)=(\cos{\theta},\sin{\theta})$$, so finding $$\theta$$ is just a matter of solving
+In polar coordinates, $$(x,y)=(\sin{\theta},\cos{\theta})$$, so finding $$\theta$$ is just a matter of solving
 
 $$
 \cos{\theta} = \frac{1}{1+h}~.
