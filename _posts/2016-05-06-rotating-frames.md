@@ -1,29 +1,31 @@
 ---
 title: Throwing balls in rotating frames
+date: 2016-05-06
 header:
   image: nightsky.jpg
 use_math: true
 ---
 
-In my work, I often have to solve problems in non-inertial frames of reference such as the Navier-Stokes equation for fluid dynamics in a rotating container.
-A few days ago, I fancied going back to basic and started having fun with a simpler problem. Here is my account of it.
+At work, we have to solve dynamical problem in non-inertial reference frames all the time. This simplifies the statement of the problem. But sometimes it makes it difficult to understand the solution as you can't build your interpretation on habits that you have that are only valid in an inertial frame.
 
-The problem in question is the free motion of a point particle (say, a small ball) as seen from a rotating frame. As a first step, I kept it to 2 dimensions. I might do the 3 dimensional case later.
+At first it was sometimes quite difficult for me to make sense of any answer computed in a rotating frame, for instance.
 
-The Lagrange function for the particle is simply the kinetic energy of the particle with its total velocity written as a combination of its own velocity plus the contribution to the rotation of the whole frame. One gets
+So I thought I would go back to basics and do a bit of point-particle mechanics in such frames before moving on to more interesting stuff.
+
+In the absence of external forces, the Lagrange function is the kinetic energy of the particle with its total velocity written as a combination of its own velocity plus the contribution to the rotation of the whole frame:
 
 \begin{align}
 L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\\\\\
   &= \frac{1}{2}m\left|\dot{\vec{r}}\right|^2+m~\vec{\omega}\cdot\left(\vec{r}\times\dot{\vec{r}}\right)+\frac{1}{2}m\left[\omega^2r^2-(\vec{\omega}\cdot\vec{r})^2\right]
 \end{align}
 
-Imposing $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ and constraining the motion to the xy-plane, this becomes
+Setting $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ constrains the motion in the xy-plane by conservation of angular momentum, The Lagrangian becomes
 
 $$
 L = \frac{1}{2}\left(\dot{x}^2+\dot{y}^2\right)+m\omega(x\dot{y}-y\dot{x})+\frac{1}{2}\omega^2(x^2+y^2)
 $$
 
-The motion in the two directions can then be derived by using the Euler-Lagrange equations. The final result can be expressed as a system of first order differential equations with an interesting shape:
+The motion in the two directions is then be derived by using the Euler-Lagrange equations. These give a system of first order differential equations with an interesting shape:
 
 \begin{align}
 \frac{d}{dt}
@@ -47,13 +49,13 @@ y\\\\\\ \dot{y}
 \end{pmatrix}
 \end{align}
 
-Call the solution array $X(t)$ and the matrix on the right-hand-side $A[\omega]$, the formal solution to the system is then
+Call the solution array $X(t)$ and the matrix on the right-hand-side $A[\omega]$, the formal solution to the system is
 
 $$
 X(t)=e^{A[\omega]t}\cdot X(0)
 $$
 
-The matrix exponential on the right-hand-side being the **propagator** of the system. For good measure, here is its full expression:
+The matrix exponential on the right-hand-side being the **propagator**. For good measure, here is its full expression:
 
 \begin{align}
 e^{A[\omega]t}=\left(
@@ -74,25 +76,25 @@ e^{A[\omega]t}=\left(
 \right)\
 \end{align}
 
-To see the effect of this matrix better, let us apply it to some initial conditions: $X(0)^T=(0,1,0,0)$. This corresponds to the particle starting from the centre and moving outward in the x-direction with unit velocity. The motion of the particle then looks something like the following :
+To see the effect of this matrix better, you can apply it to some initial conditions where the particle starts at the centre and start its motion in the x-direction with unit velocity: $X(0)^T=(0,1,0,0)$. The motion then looks something like this :
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory1.jpg)
-In the above, the trajectory is shown in blue and the velocity vector at some given time values is shown in red. The figure was obtained after setting $\omega=1$ and solving from $t=0$ to $t=20$. Interestingly, one can see that the end position in the x-direction is 20, which is also the position that the particle would reach if it was moving in a straight-line along the x-direction with constant velocity 1. This is no accident as this is indeed the motion of the particle in the inertial frame.
+In the above, the trajectory is shown in blue and the velocity vector at some given time values is shown in red. The figure was obtained after setting $\omega=1$ and solving from $t=0$ to $t=20$. Interestingly, one can see that the end position in the x-direction is 20, which is also the position that the particle would reach if it was moving in a straight-line along the x-direction with constant velocity 1. This is what we would see from the inertial frame.
 
-Let's have a bit more fun and find the initial conditions to reach the centre of coordinates from some outside point ($x_0,y_0$) after a time $t_c$ (which stands for *central time*). These read
+For more fun, let's find the initial conditions to reach the centre of coordinates from some outside point ($x_0,y_0$) after a time $t_c$ (*central time*). These read
 
 \begin{align}
 v_x^0&=-\frac{x_0-y_0\omega t_c}{t_c}\\\\\\
 v_y^0&=-\frac{y_0+x_0\omega t_c}{t_c}
 \end{align}
 
-We can understand these easily by setting $y_0=0$. which give
+You can understand these better by setting $y_0=0$. which give
 
 \begin{align}
 v_x^0&=-\frac{x_0}{t_c}\\\\\\
 v_y^0&=-\omega x_0
 \end{align}
 
-The first of these being the mean velocity necessary to reach the centre in the time $t=t_c$. The second being the velocity necessary to counteract the velocity of rotation at a distance $x_0$ from the centre.
+The first of these is the mean velocity necessary to reach the centre in the time $t=t_c$. The second is the velocity necessary to counteract the velocity of rotation at a distance $x_0$ from the centre.
 
 Setting $x_0=1$, the position vector of the particle reads
 
@@ -100,7 +102,7 @@ $$
 \vec{r}=(1-\frac{t}{t_c})\cos \omega t~\vec{e}_x - (1-\frac{t}{t_c})\sin \omega t~\vec{e}_y
 $$
 
-As an exercise, let's write this vector in the inertial frame by expressing the vector basis of the rotating frame {$\vec{e}_x$,$\vec{e}_y$} in terms of the inertial frame basis {$\vec{X}$,$\vec{Y}$}, the transformation is
+As an exercise, let's write this vector in the inertial frame. The vector basis of the rotating frame {$\vec{e}_x$,$\vec{e}_y$} written in terms of the inertial frame basis {$\vec{X}$,$\vec{Y}$} looks like
 
 \begin{align}
 \begin{pmatrix}
@@ -121,10 +123,12 @@ $$
 \vec{r}=\left(1+v_x^0t\right)\vec{X}
 $$
 
-Which is indeed the correct expression for a particle moving in a straight line with a constant velocity.
+This is indeed the correct expression for a particle moving in a straight line with a constant velocity.
 
 The next picture shows the comparison between the trajectory as seen from the rotating and inertial frames with the corresponding velocity vectors :
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory2.jpg)
 
-One can see that the velocity of the particle is not zero when it reaches the centre of coordinates so that it does not just stay in place. The following picture shows the motion of the particle after it has reached the centre. Note that it is symmetrical and is a lovely way to close this post.
+The velocity of the particle is not zero when it reaches the centre of coordinates so that it does not just stay in place.
+
+The last picture shows the motion of the particle after it has reached the centre. Note that it is symmetrical and also a *lovely* way to close this post.
 ![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory3.jpg)

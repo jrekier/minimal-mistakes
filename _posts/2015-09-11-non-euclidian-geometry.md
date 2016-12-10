@@ -13,15 +13,15 @@ Over the past millennia, the study of geometry has been extended a lot and the w
 
 One important step toward this generalisation was made by carefully inspecting the axioms of Euclid and investigating what happens when some of them are disregarded.
 
-I want to give an example of what happens when one ditches Euclid's 'unbeloved' 5th axiom.
+I want to give an example of what happens when one ditches Euclid's 5th axiom:
 
-This axiom can be stated as : *If one takes one line and a point not on the line, there is but one line parallel to the first one that goes through the point.*
+*If one takes one line and a point not on the line, there is only one line parallel to the first one that goes through the point.*
 
-The 5th axiom is very important to describe the familiar geometry of the plane and 3 dimensional space. However, it is not suited to more general surfaces. Take, for example, the upper surface of a **two-sheet hyperboloid** drawn in green on the picture below. The **geodesics**, the equivalent of the *straight lines* on this surface are the intersections of the surface and planes passing through the origin of coordinates. Three of these lines are drawn in black, blue and red on the surface.
+The 5th axiom is very important to describe geometry on a plane and a 3 dimensional space. However, it is not suited to more general surfaces. Take, for example, the upper surface of a **two-sheet hyperboloid** drawn in green on the picture below. The **geodesics** —— the equivalent of the *straight lines* on this surface —— are the intersections of the surface and planes passing through the origin of coordinates. Three of these lines are drawn in black, blue and red.
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/euclid1.png)
 
-Now, even though the blue and red lines intersect in one point, neither of these intersect the black line and thus both can be considered as parallel to it. One can be tempted to argue that what is true for the hyperboloid of the figure which is limited in space but might not be in the whole infinite hyperboloid surface. It turns out that this can be checked very simply by considering a representation of the hyperbolic space due to **Poincaré**. This representation brings every points of the hyperboloid surface within a disk of unit radius and is shown on the figure below.
+Now, even though the blue and red lines intersect in one point, neither of these intersect the black line and thus both can be considered as parallel to it. One can be tempted to argue that what is true for the hyperboloid of the figure which is limited in space might not be true in the whole infinite hyperboloid surface. It turns out that this can be checked out very simply by looking at a representation of the hyperbolic space due to **Poincaré**. This representation brings every points of the hyperboloid surface within a disk of unit radius and is shown on the figure below.
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/euclid2.png)
 
@@ -44,4 +44,4 @@ $$
 
 Geometrically, this corresponds to the intersection of the line intersecting the horizontal plane and joining a point on the hyperboloid with the point of coordinates $$(0,0,-1)$$. This is an example of a **stereographic projection**.
 
-Non-euclidian geometry is a very useful topic of mathematics as it has many applications notably in physics. One of the most important being General Relativity in which space-time is a non-euclidian 4D space, the curvature of which being gravitation.
+Non-euclidian geometry is a very useful topic of mathematics as it has many applications notably in physics. One of the most important being in General Relativity in which space-time is a non-euclidian 4D space, its curvature being gravitation.

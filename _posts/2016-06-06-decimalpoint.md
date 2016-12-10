@@ -13,9 +13,9 @@ The decimal point notation also has its own problems. It is common knowledge tha
 
 $$1=0.99999999\cdots~,$$
 
-with the series of $9$s repeated ad infinitum. There are many ways to prove the identity. Here is my attempt at it.
+with the series of $9$s repeated ad infinitum. There are many ways to prove the identity. Here is one.
 
-The right-hand side of the above can be written:
+The right-hand side can be written:
 
 \begin{equation}
 9 \sum_{n=1}^{\infty} 10^{-n}~.

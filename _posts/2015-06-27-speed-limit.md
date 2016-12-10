@@ -29,7 +29,7 @@ $$
  p = \frac{mv}{\sqrt{1-\frac{v^2}{c^2}}}~.
 $$
 
-When this is put in the the Newton's equation, this gives an ordinary differential equation for the evolution of the velocity:
+When this is put in Newton's equation, this gives an ordinary differential equation for the evolution of the velocity:
 
 $$
  \frac{dv}{dt} = \frac{F}{m}\left(1-\frac{v^2}{c^2}\right)^{3/2}~.
@@ -41,8 +41,8 @@ $$
  v(t)=\frac{c F t}{\sqrt{c^2m^2+F^2t^2}}~.
 $$
 
-I have plotted this solution along with the Newtonian solution on the figure below with $F=m=c=1$.
+Here is a plot of the solution along with the Newtonian solution with $F=m=c=1$.
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/speed_limit_fig_1.svg)
 
-The velocity of the object never reaches that of light. Pretty neat huh ?
+The velocity of the object never reaches that of light.
