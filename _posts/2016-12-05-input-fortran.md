@@ -60,7 +60,7 @@ contains
     allocate(input(numb_input))  
 ```
 
-Then it goes through the file again and collect inputs and stack them in the memory with the appropriate type defined above.
+Then it goes through the file again, collects inputs and stack them in the memory with the appropriate type defined above.
 
 ```fortran
 do while (ios == 0) ! read input
@@ -102,3 +102,40 @@ do while (ios == 0) ! read input
 end do
 close(10)
 ```
+
+The rest of the file consists in functions to assign an input to a specific variable with a specific type. Here is the one to assign the input value to a double precision real number.
+The functions takes two arguments on top of the variable's name. If there is only one input in the list, the variable provided as the first argument gets populated with the corresponding value and the second one is returned as an empty array. In case there is more than one input, it goes the other way around and it's the variable in the second arguments that gets populated.
+
+```fortran
+subroutine assign_real(var,var_array,name)
+  implicit none
+  real(kind=8), intent(out) :: var
+  real(kind=8), allocatable, dimension(:), intent(inout) :: var_array
+  character(len=*), intent(in) :: name
+  integer :: i, j
+  logical :: flag
+
+  flag = .false.
+  do i=1, size(input)
+     if(input(i)%name==name) then
+        allocate(var_array(size(input(i)%val)))
+        do j=1, size(input(i)%val)
+           !print*,input(i)%name,trim(adjustl(input(i)%val(j)))
+           read(input(i)%val(j),*) var_array(j)
+        enddo
+        flag = .true.
+     end if
+  enddo
+  if(flag.eqv..false.) then
+     allocate(var_array(0))
+     print*, 'Warning : no matching of label "', trim(adjustl(name)), '" found in input file'
+  endif
+
+  var = 0d0
+  if(size(var_array)==1) then
+     var = var_array(1)
+  endif
+end subroutine assign_real
+```
+
+The GitHub repository contains an easy example presenting all the features. 
