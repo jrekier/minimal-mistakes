@@ -2,7 +2,7 @@
 title: Throwing balls in rotating frames
 date: 2016-05-06
 header:
-  image: nightsky.jpg
+  image: /images/nightsky.jpg
 use_math: true
 ---
 

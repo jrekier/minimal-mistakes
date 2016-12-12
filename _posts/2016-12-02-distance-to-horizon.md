@@ -2,7 +2,7 @@
 title: What is the distance to the horizon ?
 date: 2016-12-02
 header:
-  image: nightsky.jpg
+  image: /images/nightsky.jpg
 use_math: true
 ---
 

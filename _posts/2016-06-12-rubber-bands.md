@@ -2,7 +2,7 @@
 title: The rubber band theorem
 date: 2016-08-30
 header:
-  image: nightsky.jpg
+  image: /images/nightsky.jpg
 use_math: true
 ---
 

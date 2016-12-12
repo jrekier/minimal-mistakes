@@ -1,7 +1,7 @@
 ---
 title: What happens when you accelerate to reach the speed of light ?
 header:
-  image: nightsky.jpg
+  image: /images/nightsky.jpg
 use_math: true
 ---
 

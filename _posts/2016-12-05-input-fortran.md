@@ -2,7 +2,7 @@
 title: A code to facilitate input from file in FORTRAN
 date: 2016-12-05
 header:
-  image: nightsky.jpg
+  image: /images/nightsky.jpg
 use_math: false
 ---
 
@@ -138,4 +138,4 @@ subroutine assign_real(var,var_array,name)
 end subroutine assign_real
 ```
 
-The GitHub repository contains an easy example presenting all the features. 
+The GitHub repository contains an easy example presenting all the features.
