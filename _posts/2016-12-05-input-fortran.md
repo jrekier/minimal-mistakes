@@ -1,5 +1,5 @@
 ---
-title: A code to help make the reading of input in FORTRAN more easy
+title: A code to help make the reading of input in FORTRAN easier
 date: 2016-12-05
 header:
   image: /images/nightsky.jpg
@@ -17,7 +17,7 @@ Here I go through the pieces of this code.
 I start by defining a custom type with one component to stock the name of the input and one for its value
 
 ```fortran
-  type inputtype
+type inputtype
      character(len=30) :: name
      character(len=100), allocatable, dimension(:) :: val
   end type inputtype
