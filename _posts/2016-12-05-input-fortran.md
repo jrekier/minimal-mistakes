@@ -20,8 +20,8 @@ I start by defining a custom type with one component to stock the name of the in
 type inputtype
      character(len=30) :: name
      character(len=100), allocatable, dimension(:) :: val
-  end type inputtype
-  type(inputtype), allocatable, dimension(:) :: input
+end type inputtype
+type(inputtype), allocatable, dimension(:) :: input
 ```
 
 Then the following routine goes through the input file and counts the number of inputs ignoring blank lines and comment lines starting with a '#'
