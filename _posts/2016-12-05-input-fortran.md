@@ -1,5 +1,5 @@
 ---
-title: A code to help make the reading of input in FORTRAN easier
+title: A code to help make input reading easier in Fortan
 date: 2016-12-05
 header:
   image: /images/nightsky.jpg
