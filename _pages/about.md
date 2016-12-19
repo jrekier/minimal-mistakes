@@ -10,4 +10,4 @@ It so happens that sometimes, at work or in other situations, I have to solve pr
 
 If any thought has the potential to spark curiosity and new ideas, it is worth sharing. Hopefully someone might find an interest in what I write.
 
-The other advantage of this blog is strictly personal. I want to improve my writing skills and keeping this blog is probably practice which would eventually contribute to teach me how to express myself.
+The other advantage of this blog is strictly personal. I want to improve my writing skills and keeping this blog is probably good practice which would eventually contribute to teach me how to express myself.
