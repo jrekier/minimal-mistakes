@@ -1,7 +1,7 @@
 ---
 title: Non-Euclidian Geometry
 header:
-  image: /images/nightsky.jpg
+  image: /images/math.jpg
 use_math: true
 ---
 

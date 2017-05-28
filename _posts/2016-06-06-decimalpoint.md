@@ -1,7 +1,7 @@
 ---
 title: The decimal point is ambiguous
 header:
-  image: /images/nightsky.jpg
+  image: /images/math.jpg
 use_math: true
 ---
 

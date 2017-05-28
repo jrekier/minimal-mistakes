@@ -1,8 +1,8 @@
 ---
-title: A code to help make input reading easier in Fortan
+title: A code to make input processing easier in Fortan
 date: 2016-12-05
 header:
-  image: /images/nightsky.jpg
+  image: /images/code.jpg
 use_math: false
 ---
 

@@ -2,7 +2,7 @@
 title: Math in a beer commercial
 date: 2017-05-28
 header:
-  image: /images/nightsky.jpg
+  image: /images/math.jpg
 use_math: true
 ---
 
