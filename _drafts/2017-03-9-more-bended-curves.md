@@ -50,7 +50,7 @@ Now, the induced metric on the circle in the coordinates $y^a$ is most easily gu
 \gamma_{\mu\nu}=g_{\mu\nu}-\epsilon n_\mu n_\nu~,
 \end{equation}
 
-where $n_\mu$ is the normalised one-form orthogonal to the circle. This is computed from the definition using the constraint \ref{eq:condition}:
+where $n_\mu$ is the normalised one-form orthogonal to the circle. This is computed from the definition using the constraint (\ref{eq:condition}):
 
 \begin{equation}
 n_\mu=\frac{∂\Phi}{∂x^\mu}~,
