@@ -30,3 +30,5 @@ $$
 $$
 
 But I think it is close enough.
+
+One cute touch is the little drawing plot of the Gamma function on the real line at the bottom-right for extra geekiness.  
