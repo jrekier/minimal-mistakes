@@ -6,7 +6,7 @@ header:
 use_math: true
 ---
 
-I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I computed the curvature of a 2-sphere embedded in the euclidean space. Here I give the details of the computation and share the notebooks I used. The package is in development and it's content is not meant to be exhaustive. This suffices however to perform the most common computations on (pseudo-)Riemannian real manifolds. It is available from its own [GitHub repository]() along with the notebook for the computation described below.
+I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I computed the curvature of a 2-sphere embedded in the euclidean space. Here I give the details of the computation and share the notebooks I used. The package is in development and it's content is not meant to be exhaustive. This suffices however to perform the most common computations on (pseudo-)Riemannian real manifolds. It is available from its own [GitHub repository](https://github.com/jrekier/Riemann) along with the notebook for the computation described below.
 
 For something more general, I recommend you take a look [here](http://sagemanifolds.obspm.fr/).
 
