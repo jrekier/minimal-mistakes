@@ -6,9 +6,9 @@ header:
 use_math: true
 ---
 
-I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I computed the curvature of a 2-sphere embedded in the euclidean space. Here I give the details of the computation and share the notebooks I used. The package is in development and it's content is not meant to be exhaustive. This suffices however to perform the most common computations on (pseudo-)Riemannian real manifolds. It is available from its own [GitHub repository](https://github.com/jrekier/Riemann) along with the notebook for the computation described below.
+I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I present here the computation of the curvature of a 2-sphere embedded in the euclidean space. The package is in development and its content is not meant to be exhaustive. This suffices however to perform most common computations on (pseudo-)Riemannian real manifolds. It is available from its own [GitHub repository](https://github.com/jrekier/Riemann) along with the notebook for the computation.
 
-For something more general, I recommend you take a look [here](http://sagemanifolds.obspm.fr/).
+For something more general, I recommend you take a look at [SageManifolds](http://sagemanifolds.obspm.fr/).
 
 Start by defining a background 3-dimensional euclidean space by providing a set of coordinates $\{x,y,z\}$ and a metric in the form of a squared line-element:
 \begin{equation}
@@ -24,11 +24,11 @@ g=\left(
 \right)~.
 \end{align}
 
-One way to embed in the 2-sphere is by setting the following constraint
+One way to embed in the 2-sphere of radius $R$ is by imposing that
 \begin{equation}
 \Phi \equiv x^2+y^2+z^2 - R^2 = 0~,
 \end{equation}
-with $R>0$. On parametrisation satisfying this constraint is
+with $R>0$. One parametrisation satisfying this constraint is
 \begin{align}
 x&=R \sin{\theta}\cos{\phi}~,\\\\\\
 y&=R \sin{\theta}\sin{\phi}~,\\\\\\
@@ -89,13 +89,13 @@ Here this gives:
 \right)
 \end{align}
 
-The mean curvature is given by the trace of this tensor and is found to be
+The mean curvature is given by the trace of this tensor and here is found to be
 \begin{equation}
 \text{Tr}~K=-\frac{2}{R}
 \label{eq:trK}
 \end{equation}
 
-All the above was done using only vectors (and one-forms) belonging to the (co-)tangent space the surrounding $\mathbb{R}^3$ without any explicit reference to the local coordinates on $S^2$. The extrinsic curvature also has a representation on $S^2$.
+All the above was done using only vectors (and one-forms) belonging to the (co-)tangent bundle of the surrounding $\mathbb{R}^3$ without any explicit reference to the local coordinates on $S^2$. The extrinsic curvature also has a representation on $S^2$.
 
 From (\ref{eq:mapSigma}), one constructs the *vielbein*:
 \begin{equation}
@@ -112,7 +112,7 @@ where $x^\alpha$ denotes the coordinates on $\mathbb{R}^3$, $$\{x,y,z\}$$ and $y
 \right)
 \end{align}
 
-The induced metric on $\Sigma$ can then be computed without
+The induced metric on $\Sigma$ can then be computed with
 \begin{equation}
 \gamma_{ab} = e^\alpha_ae^\beta_bg_{\alpha\beta}~,
 \label{eq:inducedgamma}
@@ -135,4 +135,4 @@ Applying a transformation similar to (\ref{eq:inducedgamma}) to the extrinsic cu
 \end{array}
 \right)
 \end{align}
-and we thus recover (\ref{eq:trK}) by taking the trace ($\gamma^{ab}K_{ab}$).
+and so we recover (\ref{eq:trK}) by taking the trace ($\gamma^{ab}K_{ab}$).
