@@ -1,7 +1,10 @@
 ---
 title: What happens when you accelerate to reach the speed of light ?
+date: 2015-06-27
+excerpt: "No black hole involved, sadly."
 header:
-  image: /images/nightsky.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 

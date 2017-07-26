@@ -1,8 +1,10 @@
 ---
-title: Throwing balls in rotating frames
+title: Dynamics in non-inertial reference frames
 date: 2016-05-06
+excerpt: "Throwing balls on a spinning plate"
 header:
-  image: /images/nightsky.jpg
+  overlay_image: /images/nightsky.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 

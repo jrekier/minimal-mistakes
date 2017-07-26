@@ -81,7 +81,7 @@ author:
   name             : "Jeremy Rekier"
   avatar           : "bio-photo.jpg"
   bio              : "Physicist & nerd."
-  location         : "Namur, Belgium"
+  location         : #"Namur, Belgium"
   email            :
   uri              :
   bitbucket        :

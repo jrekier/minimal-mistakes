@@ -1,8 +1,10 @@
 ---
-title: A code to make input processing easier in Fortan
+title: Using flexible input files in Fortan
 date: 2016-12-05
+excerpt: "Input processing made easier"
 header:
-  image: /images/code.jpg
+  overlay_image: /images/code.jpg
+  overlay_filter: 0.5
 use_math: false
 ---
 

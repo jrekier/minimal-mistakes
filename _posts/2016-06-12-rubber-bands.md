@@ -1,8 +1,10 @@
 ---
 title: The rubber band theorem
 date: 2016-08-30
+excerpt: "A dispensable post on a fascinating property of closed curves"
 header:
-  image: /images/math.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 

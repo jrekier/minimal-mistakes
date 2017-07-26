@@ -1,8 +1,10 @@
 ---
 title: An example in using the Riemann package
 date: 2017-07-15
+excerpt: "A package to do Riemannian geometry using Mathematica."
 header:
-  image: /images/math.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 

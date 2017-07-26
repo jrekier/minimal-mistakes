@@ -1,12 +1,14 @@
 ---
 title: Math in a beer commercial
 date: 2017-05-28
+excerpt: "I have always loved when general media feature supposedly difficult mathematics on a blackboard"
 header:
-  image: /images/math.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 
-There is a new beer commercial airing currently on the Belgian YouTube. The brand seems to have shifted the focus of their adverts from hard-working manly manual laborers to good-looking geeks. Which might tell something on the kind of persons they are willing to attract.
+There is a new beer commercial currently airing on the Belgian YouTube. The brand seems to have shifted the focus of their adverts from hard-working manly manual laborers to good-looking geeks. Which might tell something on the kind of persons they are willing to attract.
 In this commercial, two university students are pictured struggling on difficult mathematics on the blackboard of a deserted lecture hall. They finally succeed to crack the problem up and consequently celebrate the result of their hard work with a rewarding draft.
 
 I have always loved when general media feature supposedly difficult mathematics on a blackboard. When this happens, I can't help but pause the video and work out everything written, trying to identify with what specific domain of mathematics it is concerned and if it is all consistent.

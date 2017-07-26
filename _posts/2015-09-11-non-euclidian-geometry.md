@@ -1,7 +1,10 @@
 ---
 title: Non-Euclidian Geometry
+date: 2015-09-11
+excerpt: "Straight lines in a bended space."
 header:
-  image: /images/math.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 

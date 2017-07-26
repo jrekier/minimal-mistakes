@@ -1,7 +1,10 @@
 ---
 title: The decimal point is ambiguous
+date: 2016-06-06
+excerpt: "let's not use it unless we have to ..."
 header:
-  image: /images/math.jpg
+  overlay_image: /images/math.jpg
+  overlay_filter: 0.5
 use_math: true
 ---
 
