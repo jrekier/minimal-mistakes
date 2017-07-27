@@ -13,7 +13,7 @@ In this commercial, two university students are pictured struggling on difficult
 
 I have always loved when general media feature supposedly difficult mathematics on a blackboard. When this happens, I can't help but pause the video and work out everything written, trying to identify with what specific domain of mathematics it is concerned and if it is all consistent.
 
-Here is what I found on this occasion.
+Here is what I found on this occasion. Don't try to click on the play button from the still below...
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/blackboardjupiler.PNG)
 
