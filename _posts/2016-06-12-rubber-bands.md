@@ -9,7 +9,7 @@ use_math: true
 ---
 
 Here is a little something that I have wanted to share for a long time.
-One day I had carried to work in a lousy box which kept closed with two rubber bands, I started playing around with these until they looked like this
+One day I had carried my meal to work in a lousy box which kept closed with two rubber bands, I started playing around with these until they looked like this
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/rubbers1.jpg){: .align-center}
 

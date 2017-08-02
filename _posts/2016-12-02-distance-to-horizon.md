@@ -28,7 +28,7 @@ $$
 \cos{\theta} = \frac{1}{1+h}~.
 $$
 
-I am six feet tall, putting this inside the above equation gives a value of $4.8~$km for the distance to the horizon.
+I am $180~$cm tall (6ft), putting this inside the above equation gives a distane of $4.8~$km (about 3mi) to the horizon.
 
 It is interesting to know how this results scales with the height of the observer. Expanding the $$\arccos$$ function in series gives
 
