@@ -10,7 +10,7 @@
 locale                   : "en-GB"
 title                    : "A PERSONAL PAGE"
 title_separator          : "-"
-name                     : "J.Rekier"
+name                     : "jerem."
 description              : "Random thoughts"
 url                      : "https://jrekier.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jeremy Rekier"
+  name             : "jerem."
   avatar           : "bio-photo.jpg"
   bio              : "Physicist & nerd."
   location         : #"Namur, Belgium"
