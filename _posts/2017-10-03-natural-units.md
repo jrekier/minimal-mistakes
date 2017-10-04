@@ -32,7 +32,7 @@ We start by identifying the fundamental independent dimensions of the problem. V
 \end{equation}
 where a symbol inclosed within square brackets denotes its dimensions regardless of its numerical value. In order to identify the dimensions of E in terms of our fundamental dimensions of mass, length and time, it is best to use a mnemonic equation. The obvious candidate here is $E=mc^2$ which tells us that $[E]=M L^2T^{-2}$, from which we can obtain
 \begin{equation}
-[\hbar]=L^2M^2T^{-1}~.
+[\hbar]=L^2MT^{-1}~.
 \label{eq:hbar}
 \end{equation}
 
