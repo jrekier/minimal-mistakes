@@ -21,13 +21,13 @@ L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\\\\\
   &= \frac{1}{2}m\left|\dot{\vec{r}}\right|^2+m~\vec{\omega}\cdot\left(\vec{r}\times\dot{\vec{r}}\right)+\frac{1}{2}m\left[\omega^2r^2-(\vec{\omega}\cdot\vec{r})^2\right]
 \end{align}
 
-Setting $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ constrains the motion in the xy-plane by conservation of angular momentum, The Lagrangian becomes
+Setting $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ constrains the motion in the xy-plane by conservation of angular momentum. The Lagrangian becomes
 
 $$
 L = \frac{1}{2}\left(\dot{x}^2+\dot{y}^2\right)+m\omega(x\dot{y}-y\dot{x})+\frac{1}{2}\omega^2(x^2+y^2)
 $$
 
-The motion in the two directions is then be derived by using the Euler-Lagrange equations. These give a system of first order differential equations with an interesting shape:
+The motion in the two directions can then be derived by using the Euler-Lagrange equations. These give a system of first order differential equations with an interesting shape:
 
 \begin{align}
 \frac{d}{dt}
@@ -57,7 +57,7 @@ $$
 X(t)=e^{A[\omega]t}\cdot X(0)
 $$
 
-The matrix exponential on the right-hand-side being the **propagator**. For good measure, here is its full expression:
+The matrix exponential on the right-hand-side being the **propagator**. Here is its full expression:
 
 \begin{align}
 e^{A[\omega]t}=\left(
