@@ -81,13 +81,13 @@ We can solve these numerically as we did for the purely spatial case. There is h
 
 The equivalence principle states that, at any point of space-time, the laws of motion must be reducible to those of special relativity by an adequate choice of local coordinates. This corresponds to the choice of a free-falling frame of reference. In the case of a massive particle, this amounts to demand that
 \begin{equation}
-ds^2=-d\lambda^2~,
+ds^2=-d\lambda^2~,\label{eq:ds2mass}
 \end{equation}
-locally, where $$\lambda$$ is here interpreted as the proper-time of the particle. In practice, it means that, if one can sets the initial value of all the coordinates functions $$x^\mu(\lambda)$$ and their derivatives except for $t'(\lambda)$ which must be determined by solving the above equation. All this is done in the notebook. Once everything has been set up properly, we can finally see some cool physics happen. Below is a plot of a trajectory in the equatorial plane. This corresponds to initial conditions where the particle starts at $r=10$ and with a very small azimuthal geometry $\phi'=\frac{1}{50}$ so it begins to orbit the centre of coordinates. The Schwarzschild's radius here is set to $r_s=1$.
+locally, where $$\lambda$$ is here interpreted as the proper-time of the particle. In practice, it means that, if one sets the initial value of all the coordinates functions $$x^\mu(\lambda)$$ and their derivatives except for $t'(\lambda)$, this latter quantity must be determined using Eq.~\ref{eq:ds2mass} . All this is done in the notebook. Once everything has been set up properly, we can finally see some cool physics happen. Below is a plot of a trajectory in the equatorial plane. This corresponds to initial conditions where the particle starts at $r=10$ and with a very small azimuthal velocity $\phi'=\frac{1}{50}$ so it begins to orbit the centre of coordinates. The Schwarzschild's radius here is set to $r_s=1$.
 
 ![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/trajectory2d.png)
 
-I have left the integration running for long enough for the particle to circle around the origin many times. One can see that the orbit is not closed. It would be interesting to compare this with the result of Newtonian dynamics which I might just do in a future post. The figure below shows the same trajectory embedded on the surface of Flamm's paraboloid.
+The orbit is not closed. It would be interesting to compare this with the result of Newtonian dynamics which I might just do in a future post. The figure below shows the same trajectory embedded on the surface of Flamm's paraboloid.
 
 ![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/flamm2.png)
 
