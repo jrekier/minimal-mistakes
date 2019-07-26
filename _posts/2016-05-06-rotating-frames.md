@@ -8,11 +8,15 @@ header:
 use_math: true
 ---
 
-At work, we have to solve dynamical problem in non-inertial reference frames all the time. This simplifies the statement of the problem. But sometimes it makes it difficult to understand the solution as you can't build your interpretation on habits that you have that are only valid in an inertial frame.
+### in short :
 
-At first it was sometimes quite difficult for me to make sense of any answer computed in a rotating frame, for instance.
+The equations that describe the dynamics of a point particle in space must be adapted when the motion is observed from an accelerated frame of reference. I give an illustration of this by considering the motion of a free particle relative to a frame rotating at a constant angular velocity around the origin of coordinates.
 
-So I thought I would go back to basics and do a bit of point-particle mechanics in such frames before moving on to more interesting stuff.
+### in details :
+
+The most natural way of formulating Newton's laws of classical dynamics is to express the motion of particle relative to a frame of reference that is at rest (or has a constant velocity relative to some other frame). Such a frame is referred to as an *inertial frame of reference*. In some cases, however, it is easier to describe the motion relative to accelerated frames. Such is the case, for example, when one is interested in the motion of the atmosphere relative to the surface of the Earth, which is subjected to an acceleration caused by its diurnal rotation (the so-called *centripetal acceleration*).
+
+In this post, I want to go back to basics and do a bit of point-particle mechanics in a frame rotating at a constant angular velocity.
 
 In the absence of external forces, the Lagrange function is the kinetic energy of the particle with its total velocity written as a combination of its own velocity plus the contribution to the rotation of the whole frame:
 
@@ -21,13 +25,13 @@ L &= \frac{1}{2}m\left|~\dot{\vec{r}}+\vec{\omega}\times\vec{r}~\right|^2\\\\\\
   &= \frac{1}{2}m\left|\dot{\vec{r}}\right|^2+m~\vec{\omega}\cdot\left(\vec{r}\times\dot{\vec{r}}\right)+\frac{1}{2}m\left[\omega^2r^2-(\vec{\omega}\cdot\vec{r})^2\right]
 \end{align}
 
-Setting $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ constrains the motion in the xy-plane by conservation of angular momentum. The Lagrangian becomes
+We can set $~\vec{\omega}^{T}=\left(0,0,\omega\right)$ without loss of generality. In this case, the Lagrangian becomes
 
 $$
 L = \frac{1}{2}\left(\dot{x}^2+\dot{y}^2\right)+m\omega(x\dot{y}-y\dot{x})+\frac{1}{2}\omega^2(x^2+y^2)
 $$
 
-The motion in the two directions can then be derived by using the Euler-Lagrange equations. These give a system of first order differential equations with an interesting shape:
+One sees that the motion is constrained to the $xy$-plane. The equations of motion are derived using the Euler-Lagrange equations. These give a system of first order differential equations that can be put in the following matrix shape :
 
 \begin{align}
 \frac{d}{dt}
@@ -49,18 +53,19 @@ x\\\\\\
 \dot{x}\\\\\\
 y\\\\\\ \dot{y}
 \end{pmatrix}
+\label{eq:mat}
 \end{align}
 
-Call the solution array $X(t)$ and the matrix on the right-hand-side $A[\omega]$, the formal solution to the system is
+The formal solution to the system is
 
 $$
-X(t)=e^{A[\omega]t}\cdot X(0)
+X(t)=e^{A[\omega]t}\cdot X(0)~,
 $$
 
-The matrix exponential on the right-hand-side being the **propagator**. Here is its full expression:
+where $X(t)$ denotes the solution array and $A[\omega]$, the matrix on the right-hand-side of Eq.(\ref{eq:mat}). The matrix exponential on the right-hand-side of the above is the *propagator*. Here is its full expression:
 
 \begin{align}
-e^{A[\omega]t}=\left(
+e^{A[\omega]t}=\tiny{\left(
 \begin{array}{cccc}
  \cos (t \omega )+t \omega  \sin (t \omega ) & t \cos (t \omega ) & \
 \sin (t \omega )-t \omega  \cos (t \omega ) & t \sin (t \omega ) \\\\\\
@@ -75,21 +80,23 @@ e^{A[\omega]t}=\left(
 \sin (t
 \omega ) \\\\\\
 \end{array}
-\right)\
+\right)\}
 \end{align}
 
-To see the effect of this matrix better, you can apply it to some initial conditions where the particle starts at the centre and start its motion in the x-direction with unit velocity: $X(0)^T=(0,1,0,0)$. The motion then looks something like this :
-![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory1.jpg)
-In the above, the trajectory is shown in blue and the velocity vector at some given time values is shown in red. The figure was obtained after setting $\omega=1$ and solving from $t=0$ to $t=20$. Interestingly, one can see that the end position in the x-direction is 20, which is also the position that the particle would reach if it was moving in a straight-line along the x-direction with constant velocity 1. This is what we would see from the inertial frame.
+To better see the effect of this matrix, we can apply it to some initial conditions where the particle starts at the centre of coordinates with a unit velocity directed towards the x-direction: $X(0)^T=(0,1,0,0)$. The following figure illustrates the resulting motion. The trajectory is shown in blue and the velocity vector at different values of $t$ is shown in red.
 
-For more fun, let's find the initial conditions to reach the centre of coordinates from some outside point ($x_0,y_0$) after a time $t_c$ (*central time*). These read
+![alt]({{ site.url }}{{ site.baseurl }}/images/trajectory1.jpg)
+
+The figure was obtained after setting $\omega=1$ and solving from $t=0$ to $t=20$. Interestingly, one can see that the end position in the x-direction is 20, which is also the position that the particle would reach if it was moving in a straight-line along the x-direction with a constant unit velocity. This is what we would see from the inertial frame.
+
+As a next exercise, we now find the initial conditions to reach the centre of coordinates from some outside point ($x_0,y_0$) after a time $t_c$ (*central time*). The solution reads
 
 \begin{align}
 v_x^0&=-\frac{x_0-y_0\omega t_c}{t_c}\\\\\\
 v_y^0&=-\frac{y_0+x_0\omega t_c}{t_c}
 \end{align}
 
-You can understand these better by setting $y_0=0$. which give
+One can understand these better by setting $y_0=0$. which give
 
 \begin{align}
 v_x^0&=-\frac{x_0}{t_c}\\\\\\
@@ -101,10 +108,10 @@ The first of these is the mean velocity necessary to reach the centre in the tim
 Setting $x_0=1$, the position vector of the particle reads
 
 $$
-\vec{r}=(1-\frac{t}{t_c})\cos \omega t~\vec{e}_x - (1-\frac{t}{t_c})\sin \omega t~\vec{e}_y
+\vec{r}=\left(1-\frac{t}{t_c}\right)\cos \omega t~\vec{e}_x - \left(1-\frac{t}{t_c}\right)\sin \omega t~\vec{e}_y
 $$
 
-As an exercise, let's write this vector in the inertial frame. The vector basis of the rotating frame {$\vec{e}_x$,$\vec{e}_y$} written in terms of the inertial frame basis {$\vec{X}$,$\vec{Y}$} looks like
+We can write this vector in the inertial frame. The vector basis of the rotating frame {$\vec{e}_x$,$\vec{e}_y$} is related to the basis of the inertial frame {$\vec{X}$,$\vec{Y}$} via a rotation of angle $\omega t$ :
 
 \begin{align}
 \begin{pmatrix}
@@ -119,7 +126,7 @@ As an exercise, let's write this vector in the inertial frame. The vector basis 
 \end{pmatrix}
 \end{align}
 
-which gives the final result :
+which gives :
 
 $$
 \vec{r}=\left(1+v_x^0t\right)\vec{X}

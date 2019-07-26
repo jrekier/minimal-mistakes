@@ -8,31 +8,38 @@ header:
 use_math: true
 ---
 
-The ultimate speed limit of the Universe is the speed of light which nothing can overtop. What would happen then to an object on which a constant force is exerted in one direction?
 
-Newton's second law predicts that its velocity should grow following
+### in short :
+
+In this post, I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity reaches that of light. When one works from the principle of special relativity, one finds that, although the acceleration remains constant, the velocity increases slower and slower in time.
+
+### in details :
+
+It is a notorious fact that the speed of light is supposed to be the ultimate 'speed limit' of the Universe. This fact calls for the following question: What happens when an object is acted upon with a force of constant intensity and direction ?
+
+According to Newton's second law, its velocity, $v$, should satisfy the following differential equation :
 
 $$
  F = m\frac{dv}{dt}~,
 $$
 
-where $F$ is the force, $m$ is the mass of the object at rest and $\frac{dv}{dt}$ is the instantaneous rate of change in the velocity of the object (its first time derivative). Following Newton, this would mean that the velocity of the object should grow linearly.
+where $F$ is the force, $m$ is the (rest) mass of the object and $\frac{dv}{dt}$ denotes the instantaneous rate of change of its velocity (its first time derivative). When $F$ is constant, the solution to the above gives $v \sim t$ and so the velocity increases indefinitely in time.
 
-But Newton's theory is incomplete and so is the above equation.
+Since the work of Einstein, we know that Newton's theory is a special case of a larger theory (the theory of relativity) and that it is only valid in the limit where $v$ remains small compared to the speed of light, $c$. As $v$ approaches this limit, relativistic effects take place which Newton's theory fails to capture.
 
-Newton's equation can be put in the form
+It is surprisingly easy to write Newton's law in the more general case. All we need to do is to use the momentum of the object, $p$, in place of its velocity :
 
 $$
- F = \frac{dp}{dt}~,
+ F = \frac{dp}{dt}~.
 $$
 
-where $$p$$ is the momentum of the object. Setting $p=mv$ a is valid for objects moving slowly relative to the speed of light gives back our original expression of Newton's law. But $p=mv$ is invalid when one takes into account the effects of *Special Relativity*. The true expression for the momentum of a point-like object is in fact
+When we set $p=mv$, which is the classical definition of the momentum, we recover the expression of Newton's law. However, the definition of the momentum that is valid for all values of the velocity is
 
 $$
  p = \frac{mv}{\sqrt{1-\frac{v^2}{c^2}}}~.
 $$
 
-When this is put in Newton's equation, this gives an ordinary differential equation for the evolution of the velocity:
+When we insert this into Newton's equation, we arrive at a slightly more complex differential equation for the velocity :
 
 $$
  \frac{dv}{dt} = \frac{F}{m}\left(1-\frac{v^2}{c^2}\right)^{3/2}~.
@@ -44,8 +51,10 @@ $$
  v(t)=\frac{c F t}{\sqrt{c^2m^2+F^2t^2}}~.
 $$
 
-Here is a plot of the solution along with the Newtonian solution with $F=m=c=1$.
+The plot below illustrates the behaviour of this function where we have set $F=m=c=1$ (right plot). One can see that, contrary to the Newtonian case, shown in black for comparison, the velocity of the object never quite reaches that of light (dashed line). We have also plotted the object's position as a function of time (left plot). Interestingly, the displacement starts as a quadratic function of time, as in the Newtonian case, but deviates to adopt a linear behaviour when the velocity approaches that of light.
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/speed_limit_fig_1.svg)
 
-The velocity of the object never reaches that of light.
+One possible interpretation of the above is that, as the velocity of an object increases, its *inertia* increases with it. In other words, it opposes a stronger resistance to a change of its velocity. Some authors interpret this fact by saying that $m$ in the above is a valid measure of the object's mass only when it is at rest. When it is in motion, its mass becomes equal to the factor that multiplies $v$ in the above definition of the relativistic momentum.
+
+Wether this interpretation is right or wrong is a matter for metaphysical debate.
