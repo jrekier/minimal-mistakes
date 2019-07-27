@@ -11,7 +11,7 @@ use_math: true
 
 ### in short :
 
-In this post, I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity reaches that of light. When one works from the principle of special relativity, one finds that, although the acceleration remains constant, the velocity increases slower and slower in time.
+I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity reaches that of light. When one works from the principle of special relativity, one finds that, although the acceleration remains constant, the velocity increases slower and slower in time.
 
 ### in details :
 

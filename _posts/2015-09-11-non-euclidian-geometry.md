@@ -37,7 +37,7 @@ In this picture, the black circle represents the set of points situated at an in
 The algebraic expression of the Poincaré map is fairly simple in terms of polar coordinates:
 
 $$
-\{r,\theta\}\rightarrow \{\frac{r}{1+\sqrt{1+r^2}},\theta\}~.
+\{r,\theta\}\rightarrow \left\{\frac{r}{1+\sqrt{1+r^2}},\theta\right\}~.
 $$
 
 Geometrically, this corresponds to the intersection of the line joining a point on the hyperboloid with the point of coordinates $$(0,0,-1)$$ and the plane that satisfies $z=0$. This is an example of a *stereographic projection*. One sees that this transformation maps the entire hyperboloid to a finite disk by considering the following limit :
