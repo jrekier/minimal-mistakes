@@ -1,7 +1,7 @@
 ---
 title: What happens when you accelerate to reach the speed of light ?
 date: 2015-06-27
-excerpt: "No black hole involved, sadly."
+excerpt: "I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity reaches that of light working from the principles of special relativity."
 use_math: true
 classes: wide
 ---

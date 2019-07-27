@@ -3,7 +3,9 @@ title: "About this blog"
 layout: single
 permalink: /pages/about/
 header:
-  image: /images/nightsky.jpg
+  overlay_image: /images/banner-planet.jpg
+  overlay_filter: 0.5
+  caption: "Image credit: [**Tyler young**](https://www.deviantart.com/tylercreatesworlds/gallery/)"
 ---
 
 It so happens that sometimes, at work or in other situations, I have to solve problems of math, physics or whatever ... In such cases, I am happy to find that someone had the same problem before and was obliging enough to share his/her solution on the web.

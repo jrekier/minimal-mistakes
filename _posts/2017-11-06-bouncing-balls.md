@@ -1,7 +1,7 @@
 ---
 title: Simple model of a bouncing ball
 date: 2017-11-06
-excerpt: "the nature of infinity"
+#excerpt: "the nature of infinity"
 use_math: true
 classes: wide
 tags:
