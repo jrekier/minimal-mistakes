@@ -6,6 +6,7 @@ header:
   overlay_image: /images/nightsky.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 Using the [Riemann package to do Riemannian geometry]({{ site.baseurl }}{% post_url 2017-07-16-extrinsic-curvature %}), one can easily perform computations in General Realtivity. In this post, I am going to show how one could compute motions in the Schwarzschild metric.

@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 What is the distance that a boat has to sail before it starts disappearing behind the horizon ?

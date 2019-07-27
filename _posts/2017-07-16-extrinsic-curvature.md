@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I present here the computation of the curvature of a 2-sphere embedded in the euclidean space. The package is in development and its content is not meant to be exhaustive. This suffices however to perform most common computations on (pseudo-)Riemannian real manifolds. It is available from its own [GitHub repository](https://github.com/jrekier/Riemann) along with the notebook for the computation.

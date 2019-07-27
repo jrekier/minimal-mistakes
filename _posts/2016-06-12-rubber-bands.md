@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 Here is a little something that I have wanted to share for a long time.

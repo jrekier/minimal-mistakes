@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 Many numbers can be symbolically written in more than one way. For example :

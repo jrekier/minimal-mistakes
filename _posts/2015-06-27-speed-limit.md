@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 
@@ -57,4 +58,4 @@ The plot below illustrates the behaviour of this function where we have set $F=m
 
 One possible interpretation of the above is that, as the velocity of an object increases, its *inertia* increases with it. In other words, it opposes a stronger resistance to a change of its velocity. Some authors interpret this fact by saying that $m$ in the above is a valid measure of the object's mass only when it is at rest. When it is in motion, its mass becomes equal to the factor that multiplies $v$ in the above definition of the relativistic momentum.
 
-Wether this interpretation is right or wrong is a matter for metaphysical debate.
+Whether this interpretation is right or wrong is a matter for metaphysical debate.

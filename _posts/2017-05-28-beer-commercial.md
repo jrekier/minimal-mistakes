@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 There is a new beer commercial currently airing on the Belgian YouTube. The brand seems to have shifted the focus of their adverts from hard-working manly manual laborers to good-looking geeks. Which might tell something on the kind of persons they are willing to attract.

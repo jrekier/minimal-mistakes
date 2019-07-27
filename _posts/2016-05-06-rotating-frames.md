@@ -6,6 +6,7 @@ header:
   overlay_image: /images/nightsky.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 ### in short :

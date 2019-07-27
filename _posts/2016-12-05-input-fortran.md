@@ -6,6 +6,7 @@ header:
   overlay_image: /images/code.jpg
   overlay_filter: 0.5
 use_math: false
+classes: wide
 ---
 
 One thing that I don't like about coding stuff in FORTRAN compared to higher level languages is the low flexibility to process input from a file.

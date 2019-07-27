@@ -6,6 +6,7 @@ header:
   overlay_image: /images/math.jpg
   overlay_filter: 0.5
 use_math: true
+classes: wide
 ---
 
 When dealing with equations in physics, checking your units is an excellent way of looking for errors. For example, suppose you were to treat the problem of an object being drop from the top of a cliff. If you assume that the object has initial zero velocity, you end up with:
