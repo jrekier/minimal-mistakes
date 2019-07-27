@@ -2,9 +2,6 @@
 title: Using flexible input files in Fortan
 date: 2016-12-05
 excerpt: "Input processing made easier"
-header:
-  overlay_image: /images/code.jpg
-  overlay_filter: 0.5
 use_math: false
 classes: wide
 ---

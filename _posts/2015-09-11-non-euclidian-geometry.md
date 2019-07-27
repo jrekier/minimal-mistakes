@@ -2,9 +2,6 @@
 title: Geometry on a curved space
 date: 2015-09-11
 excerpt: "Euclid pleads the fifth"
-header:
-  overlay_image: /images/math.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 ---

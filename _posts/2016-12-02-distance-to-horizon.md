@@ -2,9 +2,6 @@
 title: What is the distance to the horizon ?
 date: 2016-12-02
 excerpt: "Two mathematicians on the shore of the Pacific ocean"
-header:
-  overlay_image: /images/math.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 ---

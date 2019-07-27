@@ -2,9 +2,6 @@
 title: Thinking before calculating
 date: 2017-10-03
 excerpt: "The best units for a given problem"
-header:
-  overlay_image: /images/math.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 ---

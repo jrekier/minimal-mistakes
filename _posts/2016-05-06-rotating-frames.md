@@ -2,9 +2,6 @@
 title: Dynamics in non-inertial reference frames
 date: 2016-05-06
 excerpt: "Throwing balls on a spinning plate"
-header:
-  overlay_image: /images/nightsky.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 ---
@@ -66,7 +63,7 @@ $$
 where $X(t)$ denotes the solution array and $A[\omega]$, the matrix on the right-hand-side of Eq.(\ref{eq:mat}). The matrix exponential on the right-hand-side of the above is the *propagator*. Here is its full expression:
 
 \begin{align}
-e^{A[\omega]t}=\tiny{\left(
+e^{A[\omega]t}=\scriptsize{\left(
 \begin{array}{cccc}
  \cos (t \omega )+t \omega  \sin (t \omega ) & t \cos (t \omega ) & \
 \sin (t \omega )-t \omega  \cos (t \omega ) & t \sin (t \omega ) \\\\\\

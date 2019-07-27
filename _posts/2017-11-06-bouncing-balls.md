@@ -2,9 +2,6 @@
 title: Simple model of a bouncing ball
 date: 2017-11-06
 excerpt: "the nature of infinity"
-header:
-  overlay_image: /images/math.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 tags:

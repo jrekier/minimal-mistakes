@@ -2,9 +2,6 @@
 title: Math in a beer commercial
 date: 2017-05-28
 excerpt: "I have always loved when general media feature supposedly difficult mathematics on a blackboard"
-header:
-  overlay_image: /images/math.jpg
-  overlay_filter: 0.5
 use_math: true
 classes: wide
 ---
