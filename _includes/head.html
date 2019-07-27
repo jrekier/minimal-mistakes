@@ -2,6 +2,13 @@
 
 {% include seo.html %}
 
+<!-- google fonts (needed to revert to the style of older versions) -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+<!-- Computer Modern fonts (LaTeX) -->
+<link rel="stylesheet" href="{{ '/assets/fonts/Serif/cmun-serif.css' | relative_url }}"  type="text/css">
+<link rel="stylesheet" href="{{ '/assets/fonts/Concrete/cmun-concrete.css' | relative_url }}"  type="text/css">
+<!---->
+
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <!-- https://t.co/dKP3o1e -->
