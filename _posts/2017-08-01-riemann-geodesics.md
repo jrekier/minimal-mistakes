@@ -3,7 +3,9 @@ title: Trajectories in the Schwarzschild space-time
 date: 2017-08-01
 excerpt: "Using the Riemann package presented in a previous post, one can easily perform basic computations in General Realtivity. In this post, I am going to show how it can be used to compute the geodesics of the Schwarzschild space-time."
 use_math: true
-classes: wide
+#classes: wide
+toc: true
+toc_sticky: true
 ---
 
 ### in short :
@@ -76,7 +78,7 @@ The equivalence principle states that, at any point (event) of space-time, the l
 \begin{equation}
 ds^2=-d\lambda^2~,\label{eq:ds2mass}
 \end{equation}
-locally, where $$\lambda$$ is here interpreted as the proper-time of the particle. In practice, it means that, if one sets the initial value of all the coordinates functions $$x^\mu(\lambda)$$ and their derivatives except for $t'(\lambda)$, this latter quantity must be determined using Eq.~(\ref{eq:ds2mass}. Once everything has been set up properly, we can finally see some interesting physics taking place. Below is a plot of a trajectory in the equatorial plane. This corresponds to a particle starting at $r=10$ and with a very small azimuthal velocity $\phi'=\frac{1}{50}$ so it begins to orbit the centre of coordinates. The Schwarzschild's radius here is set to $r_s=1$.
+locally, where $$\lambda$$ is here interpreted as the proper-time of the particle. In practice, it means that, if one sets the initial value of all the coordinates functions $$x^\mu(\lambda)$$ and their derivatives except for $t'(\lambda)$, this latter quantity must be determined using Eq.(\ref{eq:ds2mass}). Once everything has been set up properly, we can finally see some interesting physics taking place. Below is a plot of a trajectory in the equatorial plane. This corresponds to a particle starting at $r=10$ and with a very small azimuthal velocity $\phi'=\frac{1}{50}$ so it begins to orbit the centre of coordinates. The Schwarzschild's radius here is set to $r_s=1$.
 
 ![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/trajectory2d.png)
 
