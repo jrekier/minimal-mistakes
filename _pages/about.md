@@ -5,11 +5,13 @@ permalink: /pages/about/
 header:
   overlay_image: /images/banner-planet.jpg
   overlay_filter: 0.5
-  caption: "Image credit: [**Tyler young**](https://www.deviantart.com/tylercreatesworlds/gallery/)"
+  caption: "Image credit: [**Tyler Young**](https://www.deviantart.com/tylercreatesworlds/gallery/)"
 ---
 
-It so happens that sometimes, at work or in other situations, I have to solve problems of math, physics or whatever ... In such cases, I am happy to find that someone had the same problem before and was obliging enough to share his/her solution on the web.
+This is a personal page where I share thoughts and ideas on topics that interest me. I am a physicist by training which explains why most of my posts deal with science and mathematics.
 
-If any thought has the potential to spark curiosity and new ideas, it is worth sharing. Hopefully someone might find an interest in what I write.
+I feel like any thought that has the potential to spark interest, curiosity and/or imagination is worth sharing. Hopefully someone might find an interest in what I write.
 
-The other advantage of this blog is strictly personal. I want to improve my writing skills and keeping this blog is probably good practice which would eventually contribute to teach me how to express myself.
+Sometimes, at work or in other situations, I have to solve problems of math, physics or whatever ... In such cases, I am happy to find that someone had the same problem before and shared their solution on the web. Perhaps you will find ideas that apply to your own problem on this blog.
+
+I hope you enjoy it !

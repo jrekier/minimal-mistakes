@@ -1,5 +1,5 @@
 ---
-title: Dynamics in non-inertial reference frames
+title: Kinematic in a rotating reference frame
 date: 2016-05-06
 excerpt: "The equations that describe the dynamics of a point particle in space must be adapted when the motion is observed from an accelerated frame of reference. I give an illustration of this by considering the motion of a free particle relative to a frame rotating at a constant angular velocity around the origin of coordinates."
 use_math: true

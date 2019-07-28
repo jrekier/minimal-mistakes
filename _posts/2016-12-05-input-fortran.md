@@ -1,20 +1,28 @@
 ---
 title: Using flexible input files in Fortan
 date: 2016-12-05
-excerpt: "Input processing made easier"
+excerpt: "I created a way to parse input files to <tt>Fotran</tt> more flexibly. The code is available in a dedicated git repository. In this post, I go through some of the details of most of the code blocks."
 use_math: false
 classes: wide
 ---
 
-One thing that I don't like about coding stuff in FORTRAN compared to higher level languages is the low flexibility to process input from a file.
+### in short :
 
-A smart way to go around the problem would be to use a more script-oriented language to process the input before feeding it into your FORTRAN code to do the actual computation.
+I created a way to parse input files to <tt>Fotran</tt> more flexibly. The code is available [here](https://github.com/jrekier/inputf90). In this post, I go through some of the details of most of the code blocks.
 
-When I was writing my PhD, I instead wrote a piece of code that uses only FORTRAN to get there. I share it in its own [GitHub repository](https://github.com/jrekier/inputf90).
+### in details
 
-Here I go through the pieces of this code.
+<tt>Fortran</tt> is the first programming language that I was taught at University. I grew tired of it when I was introduced to more flexible languages like <tt>Python</tt> but as I got older, I found myself going back to <tt>Fortran</tt>, principally for the feeling of solidity that it provides.
 
-I start by defining a custom type with one component to stock the name of the input and one for its value
+There one thing, however, which I find very frustrating with it, and it's the absence of an easy and flexible way to parse input from a file.
+
+One way to go around the problem would be to use a more script-oriented language to process the input and then feed it into your actual  code.
+
+When I was writing my PhD, I wrote a piece of code to avoid that step and parse my input directly to <tt>Fortran</tt>. It now has its own [git repository](https://github.com/jrekier/inputf90) for anyone that would interested.
+
+I now present a small description of each code blocks:
+
+We start by defining a custom type with one component that will give a name to the list of input and another one to store all the values
 
 ```fortran
 type inputtype
@@ -60,7 +68,7 @@ contains
     allocate(input(numb_input))  
 ```
 
-Then it goes through the file again, collects inputs and stack them in the memory with the appropriate type defined above.
+Then we go through the file again, collect the input and commit them to memory with the appropriate type defined above.
 
 ```fortran
 do while (ios == 0) ! read input
@@ -104,7 +112,7 @@ close(10)
 ```
 
 The rest of the file consists in functions to assign an input to a specific variable with a specific type. Here is the one to assign the input value to a double precision real number.
-The functions takes two arguments on top of the variable's name. If there is only one input in the list, the variable provided as the first argument gets populated with the corresponding value and the second one is returned as an empty array. In case there is more than one input, it goes the other way around and it's the variable in the second arguments that gets populated.
+The functions takes two arguments on top of the variable's name. If there is only one input in the list, the variable provided as the first argument gets populated with the corresponding value and the second one is returned as an empty array. In case there is more than one input, it goes the other way around and it is the variable in the second arguments that gets populated. I am not sure if there is a way to avoid that trick ...
 
 ```fortran
 subroutine assign_real(var,var_array,name)
@@ -138,4 +146,4 @@ subroutine assign_real(var,var_array,name)
 end subroutine assign_real
 ```
 
-The GitHub repository contains an easy example presenting all the features.
+The [git repository](https://github.com/jrekier/inputf90) contains an easy example presenting all the features.
