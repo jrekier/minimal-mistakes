@@ -2,6 +2,7 @@
 title: Trajectories in the Schwarzschild space-time
 date: 2017-08-01
 excerpt: "Using the Riemann package presented in a previous post, one can easily perform basic computations in General Realtivity. In this post, I am going to show how it can be used to compute the geodesics of the Schwarzschild space-time."
+categories: math physics
 use_math: true
 #classes: wide
 toc: true
