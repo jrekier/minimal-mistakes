@@ -110,7 +110,7 @@ analytics:
 author:
   name             : "jerem."
   avatar           : "bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Not *actually* a Rabbit"
+  bio              : "Not *actually* a rabbit"
   location         : #"Somewhere"
   email            :
   links:

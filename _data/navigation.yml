@@ -1,7 +1,7 @@
 # main links
 main:
 
-  - title: "By topics"
+  - title: "By topic"
     url: /categories/
   - title: "About"
     url: /pages/about/
