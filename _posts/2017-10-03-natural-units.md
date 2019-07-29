@@ -48,7 +48,7 @@ d&\rightarrow d~L_S\nonumber\\\\\\
 t&\rightarrow t~T_S~,\nonumber
 \end{align}
 with the symbols $m$, $t$ and $d$ on the right now being dimensionless.
-Going back to our problem, it makes sense to identify $M_S=\mu$ and $L_S=l$. From, Eq.\ref{eq:hbar}, we then see that the most natural time scale is
+Going back to our problem, it makes sense to identify $M_S=\mu$ and $L_S=l$. From, Eq.(\ref{eq:hbar}), we then see that the most natural time scale is
 \begin{equation}
 T_S=\frac{l^2 \mu^2}{\hbar}~.
 \end{equation}
@@ -60,7 +60,7 @@ Now comes the clever part. Once these scales have been chosen, we **set the nume
 \end{equation}
 with $E$ now being measured in units of $E_s=M_S L_S^2 T_S^{-2}=1$. It may seem surprising that we are still able to say anything about our problem when so many quantities have already been set to one. It is worth noting, however, that, even though our new equation is now considerably more readable than the original, we have lost the possibility to check the steps of our computations using dimensional analysis. This is, nevertheless certainly a price worth paying.
 
-The general solution of the homogeneous form of Eq.\ref{eq:shrodingerdimless} is
+The general solution of the homogeneous form of Eq.(\ref{eq:shrodingerdimless}) is
 \begin{equation}
 \psi(x)=A e^{ikx}+B e^{-ikx}~.
 \end{equation}
@@ -72,8 +72,8 @@ Inserting this back into the original equation gives the values of the energy le
 \begin{equation}
 E=\frac{n^2\pi^2}{2}~.
 \end{equation}
-Of course, one might want the numerical values of these in a set of units that is more convenient for comparison with experiment. To get these, we simply need to multiply our result by the energy scale $E_S$, but now leaving its precise numerical value left to be set by any other choice of units. One has $E_S=\frac{\hbar^2}{l^2\mu}$ so that one finally gets
+Of course, one might want the numerical values of these in a set of units that is more convenient for comparison with experiment. To get these, we simply need to multiply our result by the energy scale $E_S$, but now leaving its precise numerical value left to be set by any other choice of units. One has $E_S=\frac{\hbar^2}{\mu l^2}$ so that one finally gets
 \begin{equation}
-E=\frac{n^2\pi^2}{2}\frac{\hbar^2}{\mu^2 l}~.
+E=\frac{n^2\pi^2}{2}\frac{\hbar^2}{\mu l^2}~.
 \end{equation}
-The nice thing about this whole method is that it allows to immediately guess the dependence of the solution in the physical parameters of the system (here $l$ and $\mu$) without having to carry around their symbols. In fact, without even solving the problem, we could have guessed that the energy levels would be multiples of $\frac{\hbar^2}{\mu^2 l}$ just by doing a bit of dimensional analysis. This might seem like a minor bonus in the present context but is in fact a huge deal in more computations.
+The nice thing about this whole method is that it allows to immediately guess the dependence of the solution in the physical parameters of the system (here $l$ and $\mu$) without having to carry around their symbols. In fact, without even solving the problem, we could have guessed that the energy levels would be multiples of $\frac{\hbar^2}{\mu l^2}$ just by doing a bit of dimensional analysis. This might seem like a minor bonus in the present context but is in fact a huge deal in more computations.
