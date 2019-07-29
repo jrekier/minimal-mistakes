@@ -4,7 +4,7 @@ date: 2015-06-27
 excerpt: "I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity approaches that of light using the principles of special relativity."
 use_math: true
 classes: wide
-categories: math physics
+tags: math physics
 ---
 
 

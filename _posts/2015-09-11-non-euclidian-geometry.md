@@ -2,7 +2,7 @@
 title: Geometry on a curved space
 date: 2015-09-11
 excerpt: "Euclid's axioms describe the geometry of shapes and curves in simple mathematical spaces which are called *flat*. When one considers more complex spaces, these axioms are no longer adequate. I illustrate this by looking at the special case where the mathematical space is a *two-sheet hyperboloid*."
-categories: math physics
+tags: math physics
 use_math: true
 classes: wide
 ---
