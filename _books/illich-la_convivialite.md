@@ -5,6 +5,8 @@ header:
   teaser: /images/book-covers/Illich_la_convivialite.jpg
   og_image: /images/book-covers/Illich_la_convivialite.jpg
 classes: wide
+date: "2019-01-01"
+tags: ecology society
 ---
 
 <figure style="width: 300px" class="align-right">
