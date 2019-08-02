@@ -57,15 +57,18 @@ The series can be summed (as a geometrical progression) to obtain
 
 $$T=\sqrt{\frac{2h_0}{g}}+2\sqrt{\frac{2h_0}{g}}\frac{(1-\alpha)^{1/2}-(1-\alpha)^{(N+1)/2}}{1-(1-\alpha)^{1/2}}~.$$
 
-What is interesting about this expression, is that it converges to a finite number for $N\rightarrow+\infty$. From this, it is not difficult to obtain that the ratio of the time intervals after and before the first rebound is:
+What is interesting about this expression, is that it converges to a finite number for $N\rightarrow+\infty$. We can take $\sqrt{\frac{2h_0}{g}}$ as the [unit of time]({{ site.baseurl }}{% post_url 2017-10-03-natural-units %}) for simplification. The above expression therefore converges to
 
-$$r=2\frac{(1-\alpha)^{\frac{1}{2}}}{1-(1-\alpha)^{\frac{1}{2}}}~.$$
+$$T=\frac{1+\sqrt{1+\alpha}}{1-\sqrt{1+\alpha}}~.$$
 
-This expression can be inverted to finally arrive at the dissipation coefficient
+This quantity can be easily measured and so we can derive the value of $\alpha$ by solving the above:
 
-$$\alpha=1-\frac{r^2}{(2+r)^2}~.$$
+$$\alpha=\frac{4T}{(1+T)^2}~.$$
 
-But hang on. In deriving the above, we have made the assumption that the number of rebounds goes to infinity $N\rightarrow+\infty$ yet the total time $T$ remains finite. Does the ball *actually* performs an infinite number of rebounds? And how is it possible for it to do so in a finite amount of time?
+The two above formula are represented in the graph below :
+![plots]({{ site.url }}{{ site.baseurl }}/images/posts_data/bouncing-balls/alpha_T.png)
+
+But hang on... In deriving the above, we have made the assumption that the number of rebounds goes to infinity $N\rightarrow+\infty$ yet the total time $T$ remains finite. Does the ball *actually* performs an infinite number of rebounds? And how is it possible for it to do so in a finite amount of time?
 
 Well, first of all, one must not forget that we are dealing here with a *very* simplified toy model. In reality, there are a number of complications arrising. For example, the amount of energy dissipated at each rebound likely depends on the velocity of the ball as it hits the ground, etc...
 
