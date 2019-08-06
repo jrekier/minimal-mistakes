@@ -7,6 +7,8 @@ use_math: true
 #classes: wide
 toc: true
 toc_sticky: true
+header:
+  teaser: /images/posts_data/riemann-geodesics/header.jpg
 ---
 
 ### in short :
@@ -45,7 +47,7 @@ For our surface, the equations of geodesics are :
 
 The analytical resolution of these equation needs not concern us at the moment. For purposes of illustration, we can be content with a numerical resolution. In the notebook from the [git repository](https://github.com/jrekier/Riemann), I define some simple initial conditions
 
-![cell2]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/cell2.png)
+![cell2]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/cell2.png)
 
 and plot the result as a parametric curve. Anticipating on the computation in space-time, we can plot our result curve on the Flamm's paraboloid representing the following embedding in 3d space:
 \begin{equation}
@@ -53,7 +55,7 @@ and plot the result as a parametric curve. Anticipating on the computation in sp
 \end{equation}
 The function `Embedding3D` in the preamble to the notebook has been written to serve that visualisation purpose. The geodesic is shown in blue:
 
-![flamm1]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/flamm1.png){: .align-center}
+![flamm1]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/flamm1.png){: .align-center}
 
 #### 2. Space-time
 
@@ -81,11 +83,11 @@ ds^2=-d\lambda^2~,\label{eq:ds2mass}
 \end{equation}
 locally, where $$\lambda$$ is here interpreted as the proper-time of the particle. In practice, it means that, if one sets the initial value of all the coordinates functions $$x^\mu(\lambda)$$ and their derivatives except for $t'(\lambda)$, this latter quantity must be determined using Eq.(\ref{eq:ds2mass}). Once everything has been set up properly, we can finally see some interesting physics taking place. Below is a plot of a trajectory in the equatorial plane. This corresponds to a particle starting at $r=10$ and with a very small azimuthal velocity $\phi'=\frac{1}{50}$ so it begins to orbit the centre of coordinates. The Schwarzschild's radius here is set to $r_s=1$.
 
-![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/trajectory2d.png)
+![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/trajectory2d.png)
 
 The figure below shows the same trajectory embedded on the surface of Flamm's paraboloid.
 
-![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/flamm2.png)
+![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/flamm2.png)
 
 ##### massless particle
 
@@ -105,12 +107,12 @@ The above two constraints have to be satisfied simultaneously at all points of t
 
 The figure below shows one such trajectory in the equatorial plane for a particle starting at $r=5$ with a small initial radial velocity towards the centre $r'=-0.5$. The equivalence principle constrains the azimuthal velocity to $\phi'=\frac{\sqrt{1-r'^2}}{r}$. We have chosen the value of the Schwarzschild's radius $r_s=\frac{5}{3}$.
 
-![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/trajectory2d2.png)
+![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/trajectory2d2.png)
 
 The above clearly demonstrates the effect of space-time curvature on the trajectories of a massless particle. It is perhaps the most stringent departure of general relativity from Newtonian physics that light rays are bent by gravitational fields.
 
 In order to render that fact even more vividly, we can compare our results to that obtained by performing the same computation but setting the Schwarzschild's radius to $r_s=0$ thus effectively describing Minkowski's space-time. You will find both curves on the picture below embedded into the surface of Flamm's paraboloid.
 
-![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesic/flamm3.png)
+![trajectory]({{ site.url }}{{ site.baseurl }}/images/posts_data/riemann-geodesics/flamm3.png)
 
 The blue curves is the solution for $r_s=\frac{5}{3}$, the yellow one is the one for $r_s=0$.
