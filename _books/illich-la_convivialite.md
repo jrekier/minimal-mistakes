@@ -1,6 +1,6 @@
 ---
-title: "La convivialité — Ivan Illich"
-excerpt: "blablabla"
+title: "Ivan Illich : La convivialité (fr)"
+excerpt: " "
 header:
   teaser: /images/book-covers/Illich_la_convivialite.jpg
   og_image: /images/book-covers/Illich_la_convivialite.jpg
