@@ -47,6 +47,7 @@ L’auteur n’est jamais très loin du thème de l’écologie et y consacre un
 Un des chapitres du livre est consacré à l’élaboration de ce que devrait être la « reconstruction conviviale ». C’est parfois un peu difficile de s’y retrouver dans la méthode exposée qui ne prend pas la forme d’un guide pratique, mais plutôt d’un inventaire d’exemples concrets avec toujours au centre la mise en garde contre la tendance à prendre les moyens pour des fins.
 
 > Ainsi prive-t-on les gens de leur aptitude naturelle a investir leur temps personnel dans la création de valeurs d’usage et les oblige-t-on à un travail salarié. 
+>
 > — Ivan Illich, chapitre 3, l’équilibre.
 
 ## Les leçons à en tirer
