@@ -24,7 +24,7 @@ sidebar:
     text: "Editions du Seuil (Points), 1973."
 ---
 
-## Résumé de l'éditeur
+## Quatrième de couverture
 > « Si les outils ne sont pas dès maintenant soumis à un contrôle politique, la coopération des bureaucrates du bien-être et des bureaucrates de l’idéologie nous fera crever de “bonheur”. La liberté et la dignité de l’être humain continueront à se dégrader, ainsi s’établira un asservissement sans précédent de l’homme à son outil. »
 >
 > Dans ce texte phare, Ivan Illich amplifie et radicalise sa critique de la société industrielle. Dénonçant la servitude née du productivisme, le gigantisme des outils, le culte de la croissance et de la réussite matérielle, il oppose à la « menace d’une apocalypse technocratique » la « vision d’une société conviviale ». Ce n’est que par la redécouverte de l’espace du bien-vivre, qu’Illich appelait la convivialité, que les sociétés s’humaniseront.
@@ -34,9 +34,9 @@ sidebar:
 ## Ce dont le livre parle
 
 {: style="text-align: justify;"}
-L’auteur développe une critique de la société industrielle, un concept qu’il a lui-même forgé, qui englobe la société capitaliste sans s’y réduire, et qui se définit par la dépossession de l’humain de son propre savoir-faire comme prix d’accès à un faisceau de biens et de services qui lui sont extérieurs. D’après Illich, cette dépossession à laquelle l’individu se soumet volontairement contre une promesse d’abondance est basée sur une imposture, car l’individu se retrouve non seulement aliéné des fruits de son travail, mais également privé de sa propre force qu’il aurait pu mettre au service de son propre bien-être, de celui de sa famille ou de sa communauté. 
+L’auteur développe une critique de la société industrielle, un concept qu’il a lui-même forgé, qui englobe la société capitaliste sans s’y réduire, et qui se définit par la dépossession de l’humain de son propre savoir-faire comme prix d’accès à un faisceau de biens et de services qui lui sont extérieurs. D’après Illich, cette dépossession à laquelle l’individu se soumet volontairement contre une promesse d’abondance est basée sur une imposture, car l’individu se retrouve non seulement aliéné des fruits de son travail, mais également privé de sa propre force qu’il aurait pu mettre au service de son propre bien-être, de celui de sa famille ou de sa communauté.
 {: style="text-align: justify;"}
-L’ouvrage contient quelques illustrations frappantes de cette relation qui lie l’individu à la société industrielle. Certains sont extrêmement radicaux, comme lorsque l’auteur affirme que les hôpitaux et la professionnalisation de l’attribution des soins ont conduit à la perte du savoir médical des non-médecins. 
+L’ouvrage contient quelques illustrations frappantes de cette relation qui lie l’individu à la société industrielle. Certains sont extrêmement radicaux, comme lorsque l’auteur affirme que les hôpitaux et la professionnalisation de l’attribution des soins ont conduit à la perte du savoir médical des non-médecins.
 {: style="text-align: justify;"}
 Illich identifie un processus d’évolution de l’outil à deux seuils. Dans un premier temps, son développement permet d’augmenter son efficacité au bénéfice du plus grand nombre. Puis, dans un second temps, la professionnalisation à outrance produit le dépassement du second seuil au-delà duquel l’utilité marginale suivant un développement supplémentaire de l’outil ne profite plus au plus grand nombre et devient négative. L’auteur applique cette grille d’analyse au corps médical et identifie les dates de 1913 et de 1939 comme celles du dépassement du premier et du second seuil respectivement. Cette dernière date correspondant au moment où les gens ont commencé à mourir de maladies attrapées à l’hôpital et où la médecine s’est détourné du plus grand nombre et à plutôt fait valoir sa légitimité et exhibant ses prouesses techniques dans la guérison de pathologies rares.
 {: style="text-align: justify;"}
@@ -48,7 +48,7 @@ L’auteur n’est jamais très loin du thème de l’écologie et y consacre un
 {: style="text-align: justify;"}
 Un des chapitres du livre est consacré à l’élaboration de ce que devrait être la « reconstruction conviviale ». C’est parfois un peu difficile de s’y retrouver dans la méthode exposée qui ne prend pas la forme d’un guide pratique, mais plutôt d’un inventaire d’exemples concrets avec toujours au centre la mise en garde contre la tendance à prendre les moyens pour des fins.
 
-> Ainsi prive-t-on les gens de leur aptitude naturelle a investir leur temps personnel dans la création de valeurs d’usage et les oblige-t-on à un travail salarié. 
+> Ainsi prive-t-on les gens de leur aptitude naturelle a investir leur temps personnel dans la création de valeurs d’usage et les oblige-t-on à un travail salarié.
 >
 > — Ivan Illich, chapitre 3, l’équilibre.
 
@@ -62,7 +62,7 @@ Là où le livre frappe le plus juste, c’est sans doute dans sa façon d’ép
 Dans l’œil du cyclone de la crise environnementale actuelle, on se retrouve souvent pris en tenaille entre l’efficacité infime des efforts individuels pour réduire notre pression sur la nature et l’inertie immense des gouvernements et des multinationales dans leur souhait de ne pas empiéter sur leurs profits dont, nous dit-on, dépendent nos emplois et, partant, notre subsistance.
 {: style="text-align: justify;"}
 
-Cet ouvrage invite à prendre conscience de certaines des absurdités de la société dans laquelle nous vivons et l’intérêt que nous aurions à nous en passer. La question du changement individuel se présente alors moins en termes de ce que nous avons à perdre et plutôt en termes de ce que nous avons à gagner, ou plutôt à récupérer. 
+Cet ouvrage invite à prendre conscience de certaines des absurdités de la société dans laquelle nous vivons et l’intérêt que nous aurions à nous en passer. La question du changement individuel se présente alors moins en termes de ce que nous avons à perdre et plutôt en termes de ce que nous avons à gagner, ou plutôt à récupérer.
 {: style="text-align: justify;"}
 
 > il est impossible d'enseigner la renonciation joyeuse et équilibrée dans un monde totalement structuré en vue de produire toujours plus et de créer l'illusion que celà coûte toujours moins cher
