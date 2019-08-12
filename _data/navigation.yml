@@ -1,8 +1,6 @@
 # main links
 main:
 
-  # - title: "By topic"
-  #   url: /categories/
   - title: "By subject"
     url: /tags/
   - title: "Book reviews"
