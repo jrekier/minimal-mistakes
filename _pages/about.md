@@ -16,7 +16,7 @@ This is a personal page where I share thoughts and ideas on topics that interest
 # The author
 
 ![earth]({{ site.url }}{{ site.baseurl }}/images/earth-interior.jpg){: .align-right width="400"}
-I am currently a postdoc at the Royal Observatory of Belgium where I do research on the dynamics of the deep interior of the Earth and other planets or moons. I specialise in mathematical modelling based on the resolution of dynamical systems of partial differential equations, using analytical and numerical methods. My main focus is on the stufy of the fluid dynamics of the liquid layers of planets (core and ocean) and their interactionwith tides, rotation and magnetic fields.
+I am currently a postdoc at the Royal Observatory of Belgium where I do research on the dynamics of the deep interior of the Earth and other planets or moons. I specialise in mathematical modelling based on the resolution of dynamical systems of partial differential equations, using analytical and numerical methods. My main focus is to study of the fluid dynamics of the liquid layers of planets (core and ocean) and their interactionwith tides, rotation and magnetic fields.
 
 Before I occupied my current position, I obtained my PhD from the University of Namur working on the applications of techniques from numerical relativity to problems of cosmology. More specifically, I built numerical model to study how large objects like galaxies or cluster of galaxies can form inside a Universe in expansion.
 
