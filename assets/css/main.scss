@@ -12,6 +12,8 @@ $computer-modern-serif    : "Computer Modern", serif;
 
 $global-font-family : $computer-modern-serif; //$serif;
 $header-font-family : $sans-serif-narrow;
+
+// $paragraph-indent : true;
 // end customisation here
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

@@ -5,8 +5,8 @@ excerpt: "I give a short description of dimensional analysis and how it can be u
 tags: math physics
 use_math: true
 classes: wide
-header:
-  teaser: /images/headers/physics.jpg
+#header:
+#  teaser: /images/headers/physics.jpg
 ---
 
 ### in short

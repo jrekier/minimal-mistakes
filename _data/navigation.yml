@@ -3,9 +3,9 @@ main:
 
   # - title: "By topic"
   #   url: /categories/
-  # - title: "Books"
-  #   url: /books/
   - title: "By subject"
     url: /tags/
+  - title: "Book reviews"
+    url: /books/
   - title: "About"
     url: /pages/about/

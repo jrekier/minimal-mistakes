@@ -7,8 +7,8 @@ use_math: true
 #classes: wide
 toc: true
 toc_sticky: true
-header:
-  teaser: /images/posts_data/riemann-geodesics/header.jpg
+#header:
+#  teaser: /images/posts_data/riemann-geodesics/header.jpg
 ---
 
 ### in short :

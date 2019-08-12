@@ -10,8 +10,10 @@ header:
 
 This is a personal page where I share thoughts and ideas on topics that interest me. I am a physicist by training which explains why most of my posts deal with science and mathematics.
 
-I feel like any thought that has the potential to spark interest, curiosity and/or imagination is worth sharing. Hopefully someone might find an interest in what I write.
+I also share personal reviews of some of the books that I have read. Mostly essays on politics, economics and society.
 
-Sometimes, at work or in other situations, I have to solve problems of math, physics or whatever ... In such cases, I am happy to find that someone had the same problem before and shared their solution on the web. Perhaps you will find ideas that apply to your own problem on this blog.
+<!-- I feel like any thought that has the potential to spark interest, curiosity and/or imagination is worth sharing. Hopefully someone might find an interest in what I write.
+
+Sometimes, at work or in other situations, I have to solve problems of math, physics or whatever ... In such cases, I am happy to find that someone had the same problem before and shared their solution on the web. Perhaps you will find ideas that apply to your own problem on this blog. -->
 
 I hope you enjoy it !

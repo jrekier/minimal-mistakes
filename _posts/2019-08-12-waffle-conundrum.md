@@ -5,8 +5,8 @@ excerpt: "I solve a relatively simple problem of geometry inspired by a culinary
 tags: math
 use_math: true
 classes: wide
-#tags:
-#  - math
+#header:
+#  teaser: /images/posts_data/waffle-conundrum/waffle.jpg
 ---
 
 ### in short :
