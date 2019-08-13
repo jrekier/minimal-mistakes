@@ -48,7 +48,7 @@ L’auteur n’est jamais très loin du thème de l’écologie et y consacre un
 {: style="text-align: justify;"}
 Un des chapitres du livre est consacré à l’élaboration de ce que devrait être la « reconstruction conviviale ». C’est parfois un peu difficile de s’y retrouver dans la méthode exposée qui ne prend pas la forme d’un guide pratique, mais plutôt d’un inventaire d’exemples concrets avec toujours au centre la mise en garde contre la tendance à prendre les moyens pour des fins.
 
-> Ainsi prive-t-on les gens de leur aptitude naturelle a investir leur temps personnel dans la création de valeurs d’usage et les oblige-t-on à un travail salarié.
+> Ainsi prive-t-on les gens de leur aptitude naturelle à investir leur temps personnel dans la création de valeurs d’usage et les oblige-t-on à un travail salarié.
 >
 > — Ivan Illich, chapitre 3, l’équilibre.
 
@@ -57,7 +57,7 @@ Un des chapitres du livre est consacré à l’élaboration de ce que devrait ê
 {: style="text-align: justify;"}
 Presque 50 ans après sa parution originale, le livre résonne très distinctement avec l’actualité de la crise environnementale que nous traversons aujourd’hui. Entre les rapports toujours plus alarmants du GIEC et les mobilisations des lycéens pour le climat, il y a certainement quelques leçons à tirer de la pensée de Illich.
 {: style="text-align: justify;"}
-Là où le livre frappe le plus juste, c’est sans doute dans sa façon d’épingler notre société pour la tendance qu’elle a de confondre les moyens avec les fins. On connaît tous l’adage selon lequel « l’argent ne fait le bonheur », c.-à-d. qu’il ne saurait être une fin en soi. L’auteur montre comment la même inversion a lieu, pour la plupart de nos institutions : l’école, la santé, la voiture... La force de l’exposé d’Ivan Illich tient surtout au fait que celui-ci ne condamne pas ces institutions en soi, mais plutôt la façon dont, passé un certain seuil, elles cessent d’être au service des individus et commencent à fonctionner pour elles-mêmes et à faire travailler les individus pour la servire au lieu du contraire.
+Là où le livre frappe le plus juste, c’est sans doute dans sa façon d’épingler notre société pour la tendance qu’elle a de confondre les moyens avec les fins. On connaît tous l’adage selon lequel « l’argent ne fait le bonheur », c.-à-d. qu’il ne saurait être une fin en soi. L’auteur montre comment la même inversion a lieu, pour la plupart de nos institutions : l’école, la santé, la voiture... La force de l’exposé d’Ivan Illich tient surtout au fait que celui-ci ne condamne pas ces institutions en soi, mais plutôt la façon dont, passé un certain seuil, elles cessent d’être au service des individus et commencent à fonctionner pour elles-mêmes et à faire travailler les individus pour la servir au lieu du contraire.
 {: style="text-align: justify;"}
 Dans l’œil du cyclone de la crise environnementale actuelle, on se retrouve souvent pris en tenaille entre l’efficacité infime des efforts individuels pour réduire notre pression sur la nature et l’inertie immense des gouvernements et des multinationales dans leur souhait de ne pas empiéter sur leurs profits dont, nous dit-on, dépendent nos emplois et, partant, notre subsistance.
 {: style="text-align: justify;"}

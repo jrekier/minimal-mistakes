@@ -22,16 +22,16 @@ Before I occupied my current position, I obtained my PhD from the University of 
 
 ## List of publications
 
-Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Internal energy dissipation in Enceladus's subsurface ocean from tides and libration & the role of inertial waves. Journal of Geophysical Research: Planets, 124.](https://doi.org/10.1029/2019JE005988)
+Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Internal energy dissipation in Enceladus's subsurface ocean from tides and libration & the role of inertial waves. Journal of Geophysical Research: Planets, 124.](https://doi.org/10.1029/2019JE005988) [[arXiv:1904.02487](https://arxiv.org/abs/1904.02487)]
 
-Triana, S. A., Rekier, J., Trinh, A., & Dehant, V. (2019). [The coupling between inertial and rotational eigenmodes in planets with liquid cores. Geophysical Journal International, 218(2), 1071–1086.](https://doi.org/10.1093/gji/ggz212)
+Triana, S. A., Rekier, J., Trinh, A., & Dehant, V. (2019). [The coupling between inertial and rotational eigenmodes in planets with liquid cores. Geophysical Journal International, 218(2), 1071–1086.](https://doi.org/10.1093/gji/ggz212) [[arXiv:1904.11837](https://arxiv.org/abs/1904.11837)]
 
-Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Inertial modes in near-spherical geometries. Geophysical Journal International, 216(2), 777–793.](https://doi.org/10.1093/gji/ggy465)
+Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Inertial modes in near-spherical geometries. Geophysical Journal International, 216(2), 777–793.](https://doi.org/10.1093/gji/ggy465) [[arXiv:1904.05221](https://arxiv.org/abs/1904.05221)]
 
 Dehant, V., Laguerre, R., Rekier, J., Rivoldini, A., Triana, S. A., Trinh, A., … Zhu, P. (2017). [Understanding the effects of the core on the nutation of the Earth. Geodesy and Geodynamics.](https://doi.org/10.1016/j.geog.2017.04.005)
 
-Rekier, J., Füzfa, A., & Cordero-Carrión, I. (2016). [Nonlinear cosmological spherical collapse of quintessence. Physical Review D, 93(4).](https://doi.org/10.1103/PhysRevD.93.043533)
+Rekier, J., Füzfa, A., & Cordero-Carrión, I. (2016). [Nonlinear cosmological spherical collapse of quintessence. Physical Review D, 93(4).](https://doi.org/10.1103/PhysRevD.93.043533) [[arXiv:1509.08354](https://arxiv.org/abs/1509.08354)]
 
-Rekier, J., Cordero-Carrión, I., & Füzfa, A. (2015). [Fully relativistic non-linear cosmological evolution in spherical symmetry using the BSSN formalism. Physical Review D - Particles, Fields, Gravitation and Cosmology, 91(2), 1–11.](https://doi.org/10.1103/PhysRevD.91.024025)
+Rekier, J., Cordero-Carrión, I., & Füzfa, A. (2015). [Fully relativistic non-linear cosmological evolution in spherical symmetry using the BSSN formalism. Physical Review D - Particles, Fields, Gravitation and Cosmology, 91(2), 1–11.](https://doi.org/10.1103/PhysRevD.91.024025)  [[arXiv:1409.3476](https://arxiv.org/abs/1409.3476)]
 
-Clesse, S., & Rekier, J. (2014).[Updated constraints on large field hybrid inflation. Physical Review D, 90(8), 1–13.](https://doi.org/10.1103/PhysRevD.90.083527)
+Clesse, S., & Rekier, J. (2014).[Updated constraints on large field hybrid inflation. Physical Review D, 90(8), 1–13.](https://doi.org/10.1103/PhysRevD.90.083527) [[arXiv:1407.1984](https://arxiv.org/abs/1407.1984)]
