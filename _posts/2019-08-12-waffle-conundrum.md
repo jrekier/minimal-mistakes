@@ -15,7 +15,7 @@ I solve a relatively simple problem of geometry inspired by a culinary example f
 
 ### in details :
 
-![waffle]({{ site.url }}{{ site.baseurl }}/images/posts_data/waffle-conundrum/waffle.jpg){: .align-left width="200"}
+<!-- ![waffle]({{ site.url }}{{ site.baseurl }}/images/posts_data/waffle-conundrum/waffle.jpg){: .align-left width="200"} -->
 This one was suggested by my friend Xavier :)
 
 He asked me if I could find where to cut a circular waffle along its diameter so that the total area gets divided into four equal parts. We set ourselves to work and we found that the answer was not as easy as we would have guessed.
