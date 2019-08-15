@@ -2,9 +2,10 @@
 title: Toy model of a bouncing ball and Zeno's paradox
 date: 2017-11-06
 excerpt: "Starting from the common experience of hearing an object bouncing off the ground, I build a simplified model to compute the amount of energy being lost by the object along its course. This leads me to ponder about the possibility that the object could experience an infinite amount of rebounds in a finite amount of time."
-tags: math physics
 use_math: true
 classes: wide
+categories: blog
+tags: math physics
 #tags:
 #  - math
 ---

@@ -2,9 +2,10 @@
 title: What is the distance to the horizon ?
 date: 2016-12-02
 excerpt: "I compute the distance of the horizon to an observer on the shore using trigonometry. I try to give a solution that is slightly more accurate than the classic way of the classic one based on Pythagora's theorem and compare the two results."
-tags: math physics
 use_math: true
 classes: wide
+categories: blog
+tags: math physics
 ---
 
 ### in short :

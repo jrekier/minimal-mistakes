@@ -3,7 +3,7 @@ title: Book reviews
 layout: collection
 permalink: /books/
 header:
-  overlay_image: /images/banner-marx.jpg
+  overlay_image: /images/headers/banner-marx.jpg
   overlay_filter: 0.5
 collection: books
 entries_layout: grid

@@ -2,9 +2,10 @@
 title: The decimal point is ambiguous
 date: 2016-06-06
 excerpt: "A short post about the ambiguous nature of the decimal point. This illustrates how a number shouldn't be confused with its graphical representation."
-tags: math
 use_math: true
 classes: wide
+categories: blog
+tags: math
 ---
 
 Many numbers can be symbolically written in more than one way. For example :

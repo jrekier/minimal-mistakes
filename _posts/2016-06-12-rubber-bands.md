@@ -2,9 +2,10 @@
 title: The rubber band theorem
 date: 2016-08-30
 excerpt: "I share a practical experiment of differential geometry by looking at two rubber bands on a table. This provides an opportunity to illustrate a theorem about the total curvature of closed curves."
-tags: math
 use_math: true
 classes: wide
+categories: blog
+tags: math
 ---
 
 ### in short :

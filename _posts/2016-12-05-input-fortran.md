@@ -2,9 +2,10 @@
 title: Using flexible input files in Fortan
 date: 2016-12-05
 excerpt: "I created a way to parse input files to <tt>Fotran</tt> more flexibly. The code is available in a dedicated git repository. In this post, I go through some of the details of most of the code blocks."
-tags: programming
 use_math: false
 classes: wide
+categories: blog
+tags: programming
 ---
 
 ### in short :

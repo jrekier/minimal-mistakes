@@ -1,12 +1,15 @@
 ---
-title: "About"
-layout: single
-permalink: /science-news/
+title: "Science News"
+layout: category
+taxonomy: news
+permalink: /news/
+author_profile: true
 header:
-  overlay_image: /images/banner-planet.jpg
-  overlay_filter: 0.5
-  caption: "Image credit: [**Tyler Young**](https://www.deviantart.com/tylercreatesworlds/gallery/)"
-classes: wide
+  overlay_image: /images/headers/banner-news2.jpg
+  overlay_filter: 0.33
+entries_layout: grid
 ---
 
 # Under development
+
+{% include archive-single.html type="grid" %}

@@ -1,6 +1,10 @@
 # main links
 main:
 
+  - title: "Blog"
+    url: /blog/
+  - title: "News"
+    url: /news/
   - title: "By subject"
     url: /tags/
   - title: "Book reviews"
