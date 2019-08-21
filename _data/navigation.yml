@@ -3,11 +3,11 @@ main:
 
   - title: "Blog"
     url: /blog/
-  - title: "News"
-    url: /news/
-  - title: "By subject"
-    url: /tags/
+  # - title: "News"
+  #   url: /news/
   - title: "Book reviews"
     url: /books/
+  - title: "By subject"
+    url: /tags/
   - title: "About"
     url: /pages/about/

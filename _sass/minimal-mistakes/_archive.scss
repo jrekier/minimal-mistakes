@@ -209,12 +209,12 @@
   .archive__item-teaser {
     @include breakpoint($small) {
       //J.R
-      max-height: 400px;
+      // max-height: 400px;
     }
 
     @include breakpoint($medium) {
       //J.R
-      max-height: 210px;
+      // max-height: 210px;
     }
   }
 }
