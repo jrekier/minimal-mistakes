@@ -25,7 +25,7 @@ We can inject some numbers into the problem by drawing a Cartesian system of coo
 
 ![waffle-math]({{ site.url }}{{ site.baseurl }}/images/posts_data/waffle-conundrum/waffle-math.jpg){: .align-center width="400"}
 
-We will have solved the problem if we can find the value of the angle $\theta_0$ for which the area of the quarter circle above the red line is equal to the area below. This latter area can be obtained as the sum of the right triangle between the red and black lines in the figure plus another contribution which can be computed as an integral. Taking the radius of the waffle of the unit of length and using the polar coordinates, this integral reads
+We will have solved the problem if we can find the value of the angle $\theta_0$ for which the area of the quarter circle above the red line is equal to the area below. This latter area can be obtained as the sum of the right triangle between the red and black lines in the figure plus another contribution which can be computed as an integral. Taking the radius of the waffle as the unit of length and using the polar coordinates, this integral reads
 
 
 $$
