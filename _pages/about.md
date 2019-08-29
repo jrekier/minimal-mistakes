@@ -26,7 +26,7 @@ Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Internal energy diss
 
 Triana, S. A., Rekier, J., Trinh, A., & Dehant, V. (2019). [The coupling between inertial and rotational eigenmodes in planets with liquid cores. Geophysical Journal International, 218(2), 1071–1086.](https://doi.org/10.1093/gji/ggz212) [[arXiv:1904.11837](https://arxiv.org/abs/1904.11837)]
 
-Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Inertial modes in near-spherical geometries. Geophysical Journal International, 216(2), 777–793.](https://doi.org/10.1093/gji/ggy465) [[arXiv:1904.05221](https://arxiv.org/abs/1904.05221)]
+Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2018). [Inertial modes in near-spherical geometries. Geophysical Journal International, 216(2), 777–793.](https://doi.org/10.1093/gji/ggy465) [[arXiv:1904.05221](https://arxiv.org/abs/1904.05221)]
 
 Dehant, V., Laguerre, R., Rekier, J., Rivoldini, A., Triana, S. A., Trinh, A., … Zhu, P. (2017). [Understanding the effects of the core on the nutation of the Earth. Geodesy and Geodynamics.](https://doi.org/10.1016/j.geog.2017.04.005)
 
