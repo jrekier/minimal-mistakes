@@ -5,7 +5,7 @@ header:
   teaser: /images/book-covers/keen_crise-financiere.png
   og_image: /images/book-covers/keen_crise-financiere.png
 #classes: wide
-date: "2019-08-14"
+date: "2019-09-17"
 tags: economy
 use_math : true
 style : "text-align: justify;"
@@ -82,13 +82,13 @@ Au minimum, on peut affirmer que les économistes installés ne font rien pour n
 
 ## Les leçons à en tirer
 
-Dans le domaine scientifique, il faut toujours faire preuve de prudence lorsque l’on est mis en face de travaux qui semblent aller contre le consensus général. Il est également important de savoir remettre en question une théorie scientifique à partir du moment où elle a montré son incapacité à rendre compte des phénomènes observés. Le caractère scientifique de l’économie est largement débattu. En appliquant néanmoins ces deux principes, on doit commencer par remarquer que les analyses de Steve Keen sont loin de faire l’unanimité parmi la profession. Pourtant, il me semble qu’elles ont au moins un double avantage; celui de proposer une explication vraisemblable à l’existence des crises du capitalisme tout en expliquant les erreurs des théories concurrentes. 
+Dans le domaine scientifique, il faut toujours faire preuve de prudence lorsque l’on est mis en face de travaux qui semblent aller contre le consensus général. Il est également important de savoir remettre en question une théorie scientifique à partir du moment où elle a montré son incapacité à rendre compte des phénomènes observés. Le caractère scientifique de l’économie est largement débattu. En appliquant néanmoins ces deux principes, on doit commencer par remarquer que les analyses de Steve Keen sont loin de faire l’unanimité parmi la profession. Pourtant, il me semble qu’elles ont au moins un double avantage; celui de proposer une explication vraisemblable à l’existence des crises du capitalisme tout en expliquant les erreurs des théories concurrentes.
 
 De ce point de vue, c’est assez curieux de constater que les économistes *mainstream* demeurent justement les plus enclins à revendiquer le statut de « science économique » pour leur discipline.
 
-Les diagnostics et les arguments de Steve Keen sont convaincants et le livre permet de comprendre qu’il n’y a rien d’étonnant à la succession des crises dans nos sociétés capitalistes. C’est un véritable manuel d’autodéfense contre les experts familiers qui prônent le libéralisme depuis des décennies. 
+Les diagnostics et les arguments de Steve Keen sont convaincants et le livre permet de comprendre qu’il n’y a rien d’étonnant à la succession des crises dans nos sociétés capitalistes. C’est un véritable manuel d’autodéfense contre les experts familiers qui prônent le libéralisme depuis des décennies.
 
-L’auteur n’est pas un socialiste, mais plutôt un partisan d’une économie capitaliste placée sous le contrôle d’un État plus fort et, on l’imagine, également plus démocratique. Une forme de doctrine que l’on classe communément sous l’appellation de « politique keynésienne ». J’ai des doutes sur le fait qu’un capitalisme réformé suffise à faire face aux enjeux de notre époque, notamment sur le plan environnemental. Une telle option reste par exemple fondée sur une croissance importante même si soutenue par une plus forte dépense publique. 
+L’auteur n’est pas un socialiste, mais plutôt un partisan d’une économie capitaliste placée sous le contrôle d’un État plus fort et, on l’imagine, également plus démocratique. Une forme de doctrine que l’on classe communément sous l’appellation de « politique keynésienne ». J’ai des doutes sur le fait qu’un capitalisme réformé suffise à faire face aux enjeux de notre époque, notamment sur le plan environnemental. Une telle option reste par exemple fondée sur une croissance importante même si soutenue par une plus forte dépense publique.
 
 Néanmoins, les politiques keynésiennes font un retour dans l’actualité récente à la faveur des crises que nous traversons. La proposition du *Green New Deal* portée par la gauche du parti démocrate aux États-Unis en est assurément l’exemple le plus représentatif, allant jusqu’à emprunter son nom à la première réforme de ce type entreprise par Roosevelt pour résoudre la crise des années 30. Ce surgissement dans l’actualité est une bonne chose dans le contexte de lutte défensive dans lequel le « rouleau compresseur » de la pensée libérale à acculé tous les mouvements pour l’émancipation des travailleurs. De telles politiques ont, en effet, plutôt tendance à réduire les inégalités et à réinjecter une dose de contrôle publique dans l’allocation des investissements, restituant la possibilité d’une vision de long terme gardée jusqu’ici hors-jeu par la nature court-termiste de la logique actionnariale.
 
