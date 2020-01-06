@@ -3,7 +3,7 @@ title: The waffle conundrum
 date: 2019-08-12
 excerpt: "I solve a relatively simple problem of geometry inspired by a culinary example from everyday life and find that the final answer has no closed analytical form. This illustrates how unexpected difficulties can emerge even in simple problems."
 use_math: true
-classes: wide
+#classes: wide
 categories: blog
 tags: math
 #header:

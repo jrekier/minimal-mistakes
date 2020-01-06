@@ -3,7 +3,7 @@ title: An example in using the Riemann package
 date: 2017-07-15
 excerpt: "I have written a <tt>Mathematica</tt> package to perform basic computations in Riemannian geometry. In this post, I share an example of computation that this code can be used for and a link to the package containing the instructions to reproduce the computation presented here."
 use_math: true
-classes: wide
+#classes: wide
 categories: blog
 tags: math
 ---

@@ -3,7 +3,7 @@ title: Dimensional analysis
 date: 2017-10-03
 excerpt: "I give a short description of dimensional analysis and how it can be used to check the mathematics of computations in physics and also how it can be used to simplify the equations by getting rid of constant parameters."
 use_math: true
-classes: wide
+#classes: wide
 categories: blog
 tags: math physics
 #header:

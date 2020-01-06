@@ -10,20 +10,16 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    104972,       2172]
-NotebookOptionsPosition[    103107,       2103]
-NotebookOutlinePosition[    103629,       2125]
-CellTagsIndexPosition[    103540,       2120]
+NotebookDataLength[    108347,       2257]
+NotebookOptionsPosition[    106356,       2184]
+NotebookOutlinePosition[    106879,       2206]
+CellTagsIndexPosition[    106790,       2201]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell[BoxData[
- RowBox[{"<<", "MaTeX`"}]], "Input",
- CellChangeTimes->{{3.787071153287261*^9, 3.787071174040531*^9}}],
 
 Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"DSolve", "[", 
   RowBox[{
@@ -624,6 +620,7 @@ P8wlAec=
 Cell[CellGroupData[{
 
 Cell[BoxData[{
+ RowBox[{"<<", "MaTeX`"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"texStyle", "=", 
    RowBox[{"{", 
@@ -673,12 +670,10 @@ Cell[BoxData[{
        RowBox[{"0", ",", "6"}], "}"}]}], "}"}]}], ",", 
    RowBox[{"BaseStyle", "\[Rule]", "texStyle"}]}], 
   "]"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"(*", 
-   RowBox[{"Export", "[", 
-    RowBox[{"\"\<~/Desktop/exp.png\>\"", ",", "%", ",", 
-     RowBox[{"ImageResolution", "\[Rule]", "200"}], ",", 
-     RowBox[{"ImageSize", "\[Rule]", "1000"}]}], "]"}], "*)"}]}]}], "Input",
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<~/Desktop/exp.png\>\"", ",", "%", ",", 
+   RowBox[{"ImageResolution", "\[Rule]", "300"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "400"}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.786474700593832*^9, 3.786475078766362*^9}, {
    3.7864752189967937`*^9, 3.786475305075903*^9}, {3.787071213466357*^9, 
    3.787071326650991*^9}, {3.787071373080505*^9, 3.787071428178114*^9}, {
@@ -687,7 +682,9 @@ Cell[BoxData[{
    3.787075787334962*^9, 3.7870758560642033`*^9}, {3.787077777011903*^9, 
    3.7870777862851458`*^9}, {3.7870778172843847`*^9, 3.7870778179301987`*^9}, 
    3.787293400564042*^9, {3.787293618853352*^9, 3.7872936192149363`*^9}, {
-   3.787293656241867*^9, 3.787293687543082*^9}}],
+   3.787293656241867*^9, 3.787293687543082*^9}, {3.7873401067759857`*^9, 
+   3.787340182460688*^9}, {3.787340239123118*^9, 3.787340264928473*^9}, 
+   3.7873404258973618`*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{{{}, {}, 
@@ -726,7 +723,7 @@ P/lfAg2OWjwciyShOO/17UtSAr3NNixcuImEiQIbgz4ZgV30IoFb9Pyei/m1
 bmoCi1gO3jlbSHha9oiSqCGwJXKPpC6GBMvq2bCLHwlcQDwPeBlLQvx196qe
 mfl/SphvKHEk1N7cpZ6bI5AxeSGXvpWE/wD46EEg
           "]]}, 
-        Annotation[#, "Charting`Private`Tag$32603#1"]& ], 
+        Annotation[#, "Charting`Private`Tag$158843#1"]& ], 
        TagBox[{
          Directive[
           Opacity[1.], 
@@ -762,7 +759,7 @@ OATwb0REfyWAa/Skv7cOh6tZ0pZSGQHf3nBv1dbjMH5hJXVQTsAz0BFfavzx
 U5xd66wiwFln1J/VgkN/WQ8WOUNA98LqtzvFOBhVLQQWzxHQVx1a4NqKw6Ea
 l8qnagLMnvNOrmrDofZ2rGpxkYCv7hU8agcO/wFDgClS
           "]]}, 
-        Annotation[#, "Charting`Private`Tag$32603#2"]& ], 
+        Annotation[#, "Charting`Private`Tag$158843#2"]& ], 
        TagBox[{
          Directive[
           Opacity[1.], 
@@ -798,7 +795,7 @@ QYF/yFca5h0zGr7tFK4ndj+6IaSRsM8su6KTwsB5FVbrMA0f594w5a65P2lJ
 d01Ec77ePMnmXgqvMmsZARM0GPF/Ven2UViSN+OaNkXjGS+9RTBAwafQNLdR
 TGOnWMag9wuFu8UHRLOzNDj1Ku/IvxT+AxqgKe4=
           "]]}, 
-        Annotation[#, "Charting`Private`Tag$32603#3"]& ], 
+        Annotation[#, "Charting`Private`Tag$158843#3"]& ], 
        TagBox[{
          Directive[
           Opacity[1.], 
@@ -825,7 +822,7 @@ C9cDEEC0zymL2dRBQKRnaaEaqBBAjMb+MCBdQkCDNYVKnmERQJNz6Wpg3EJA
 XkRA4o4/ZFVoFECnMLF+nudEQHFD1X+gTBVAKWKqTv1tRUAqGD49djYWQNtJ
 ubJV60VA78jYb58ZF0C1lCRfXmVGQAAAAAAAABhACbJjNg==
           "]]}, 
-        Annotation[#, "Charting`Private`Tag$32603#4"]& ], 
+        Annotation[#, "Charting`Private`Tag$158843#4"]& ], 
        TagBox[{
          Directive[
           Opacity[1.], 
@@ -849,7 +846,7 @@ k5naiaE9QAb88kBbmRFAphAqecebPkC1meC5BnsSQMFyH0Unqz9A9raTVox8
 E0CeIKAcPVRAQNtEIomTeRRAvXz6AGjQQEAFLfkZE34VQCFLB/wjV0FAYEfY
 ZWinFkC0zymL2dRBQFGTg/BLyxdA9/9zSmrqQUAAAAAAAAAYQNkFKEk=
           "]]}, 
-        Annotation[#, "Charting`Private`Tag$32603#5"]& ]}}, {}, {}}, {
+        Annotation[#, "Charting`Private`Tag$158843#5"]& ]}}, {}, {}}, {
     DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
      AxesOrigin -> {0, 0}, 
      FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
@@ -2078,31 +2075,115 @@ wAnO
    3.787075788091893*^9, 3.78707583253549*^9}, 3.787075865720262*^9, 
    3.787077788217297*^9, 3.7870778194916487`*^9, 3.7872933710304003`*^9, 
    3.787293411296595*^9, {3.787293612986624*^9, 3.7872936197796087`*^9}, {
-   3.787293659125123*^9, 3.787293688052175*^9}}]
+   3.787293659125123*^9, 3.787293688052175*^9}, {3.787340119290715*^9, 
+   3.78734018443657*^9}, {3.7873402412791452`*^9, 3.787340267162078*^9}}],
+
+Cell[BoxData["\<\"~/Desktop/exp.png\"\>"], "Output",
+ CellChangeTimes->{{3.786474775836919*^9, 3.786475079103057*^9}, {
+   3.7864752511387663`*^9, 3.786475305896469*^9}, 3.787071281971018*^9, {
+   3.7870713156029778`*^9, 3.787071328016473*^9}, {3.787071418218443*^9, 
+   3.78707143024684*^9}, {3.787071494846176*^9, 3.7870715631554537`*^9}, {
+   3.787071921254539*^9, 3.7870719274459667`*^9}, 3.7870757526890182`*^9, {
+   3.787075788091893*^9, 3.78707583253549*^9}, 3.787075865720262*^9, 
+   3.787077788217297*^9, 3.7870778194916487`*^9, 3.7872933710304003`*^9, 
+   3.787293411296595*^9, {3.787293612986624*^9, 3.7872936197796087`*^9}, {
+   3.787293659125123*^9, 3.787293688052175*^9}, {3.787340119290715*^9, 
+   3.78734018443657*^9}, {3.7873402412791452`*^9, 3.7873402675498466`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"?", "PlotTheme"}]], "Input",
- CellChangeTimes->{{3.787293625478064*^9, 3.7872936274550543`*^9}}],
+ RowBox[{"?", "ImageResolution"}]], "Input",
+ CellChangeTimes->{{3.787293625478064*^9, 3.7872936274550543`*^9}, {
+  3.78734019940244*^9, 3.787340202100545*^9}}],
 
 Cell[BoxData[
  RowBox[{
-  StyleBox["\<\"PlotTheme is an option for plotting and related functions \
-that specifies an overall theme for visualization elements and styles. \"\>", 
-   "MSG"], "\[NonBreakingSpace]", 
+  StyleBox["\<\"ImageResolution is an option for Export, Rasterize, and \
+related functions that specifies at what resolution bitmap images should be \
+rendered. \"\>", "MSG"], "\[NonBreakingSpace]", 
   ButtonBox[
    StyleBox["\[RightSkeleton]", "SR"],
    Active->True,
    BaseStyle->"Link",
-   ButtonData->"paclet:ref/PlotTheme"]}]], "Print", "PrintUsage",
- CellChangeTimes->{3.787293628128665*^9},
- CellTags->"Info123787297228-7755705"]
+   ButtonData->"paclet:ref/ImageResolution"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.78734020243538*^9},
+ CellTags->"Info453787343802-2338133"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Series", "[", 
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"\[Lambda]", " ", "t"}]], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "10"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.787339026360779*^9, 3.787339044296253*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"1", "+", 
+   RowBox[{"\[Lambda]", " ", "t"}], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "2"], " ", 
+     SuperscriptBox["t", "2"]}], "2"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "3"], " ", 
+     SuperscriptBox["t", "3"]}], "6"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "4"], " ", 
+     SuperscriptBox["t", "4"]}], "24"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "5"], " ", 
+     SuperscriptBox["t", "5"]}], "120"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "6"], " ", 
+     SuperscriptBox["t", "6"]}], "720"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "7"], " ", 
+     SuperscriptBox["t", "7"]}], "5040"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "8"], " ", 
+     SuperscriptBox["t", "8"]}], "40320"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "9"], " ", 
+     SuperscriptBox["t", "9"]}], "362880"], "+", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Lambda]", "10"], " ", 
+     SuperscriptBox["t", "10"]}], "3628800"], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", "t", "]"}], "11"],
+    SeriesData[$CellContext`t, 0, {}, 0, 11, 1],
+    Editable->False]}],
+  SeriesData[$CellContext`t, 0, {
+   1, $CellContext`\[Lambda], Rational[1, 2] $CellContext`\[Lambda]^2, 
+    Rational[1, 6] $CellContext`\[Lambda]^3, 
+    Rational[1, 24] $CellContext`\[Lambda]^4, 
+    Rational[1, 120] $CellContext`\[Lambda]^5, 
+    Rational[1, 720] $CellContext`\[Lambda]^6, 
+    Rational[1, 5040] $CellContext`\[Lambda]^7, 
+    Rational[1, 40320] $CellContext`\[Lambda]^8, 
+    Rational[1, 362880] $CellContext`\[Lambda]^9, 
+    Rational[1, 3628800] $CellContext`\[Lambda]^10}, 0, 11, 1],
+  Editable->False]], "Output",
+ CellChangeTimes->{{3.787339038724826*^9, 3.7873390445373917`*^9}}]
 }, Open  ]]
 },
 WindowSize->{808, 756},
-WindowMargins->{{-3, Automatic}, {Automatic, 0}},
+WindowMargins->{{52, Automatic}, {Automatic, 23}},
 FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
 21, 2016)",
 StyleDefinitions->"Default.nb"
@@ -2112,67 +2193,71 @@ StyleDefinitions->"Default.nb"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Info123787297228-7755705"->{
-  Cell[102640, 2089, 451, 11, 43, "Print",
-   CellTags->"Info123787297228-7755705"]}
+ "Info453787343802-2338133"->{
+  Cell[103596, 2100, 467, 11, 63, "Print",
+   CellTags->"Info453787343802-2338133"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info123787297228-7755705", 103431, 2114}
+ {"Info453787343802-2338133", 106681, 2195}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 116, 2, 32, "Input"],
 Cell[CellGroupData[{
-Cell[699, 26, 683, 18, 49, "Input"],
-Cell[1385, 46, 421, 11, 42, "Output"]
+Cell[580, 22, 683, 18, 49, "Input"],
+Cell[1266, 42, 421, 11, 42, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1843, 62, 761, 22, 54, "Input"],
-Cell[2607, 86, 325, 8, 35, "Output"],
-Cell[2935, 96, 328, 8, 44, "Output"]
+Cell[1724, 58, 761, 22, 54, "Input"],
+Cell[2488, 82, 325, 8, 35, "Output"],
+Cell[2816, 92, 328, 8, 44, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3300, 109, 1114, 28, 76, "Input"],
-Cell[4417, 139, 528, 12, 35, "Output"],
-Cell[4948, 153, 383, 7, 44, "Output"]
+Cell[3181, 105, 1114, 28, 76, "Input"],
+Cell[4298, 135, 528, 12, 35, "Output"],
+Cell[4829, 149, 383, 7, 44, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5368, 165, 787, 22, 81, "Input"],
-Cell[6158, 189, 8337, 150, 242, "Output"]
+Cell[5249, 161, 787, 22, 81, "Input"],
+Cell[6039, 185, 8337, 150, 242, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14532, 344, 243, 6, 35, "Input"],
-Cell[14778, 352, 523, 14, 45, "Output"]
+Cell[14413, 340, 243, 6, 35, "Input"],
+Cell[14659, 348, 523, 14, 45, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15338, 371, 145, 3, 50, "Input"],
-Cell[15486, 376, 88, 1, 32, "Output"]
+Cell[15219, 367, 145, 3, 50, "Input"],
+Cell[15367, 372, 88, 1, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15611, 382, 883, 26, 117, "Input"],
-Cell[16497, 410, 607, 16, 43, "Output"],
-Cell[17107, 428, 367, 8, 37, "Output"]
+Cell[15492, 378, 883, 26, 117, "Input"],
+Cell[16378, 406, 607, 16, 43, "Output"],
+Cell[16988, 424, 367, 8, 37, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[17511, 441, 420, 10, 66, "Input"],
-Cell[17934, 453, 168, 3, 37, "Output"],
-Cell[18105, 458, 112, 1, 32, "Output"]
+Cell[17392, 437, 420, 10, 66, "Input"],
+Cell[17815, 449, 168, 3, 37, "Output"],
+Cell[17986, 454, 112, 1, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18254, 464, 485, 12, 44, "Input"],
-Cell[18742, 478, 7769, 142, 237, "Output"]
+Cell[18135, 460, 485, 12, 44, "Input"],
+Cell[18623, 474, 7769, 142, 237, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[26548, 625, 2680, 64, 205, "Input"],
-Cell[29231, 691, 73249, 1389, 283, "Output"]
+Cell[26429, 621, 2811, 65, 226, "Input"],
+Cell[29243, 688, 73351, 1390, 283, "Output"],
+Cell[102597, 2080, 785, 10, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102517, 2085, 120, 2, 32, "Input"],
-Cell[102640, 2089, 451, 11, 43, "Print",
- CellTags->"Info123787297228-7755705"]
+Cell[103419, 2095, 174, 3, 32, "Input"],
+Cell[103596, 2100, 467, 11, 63, "Print",
+ CellTags->"Info453787343802-2338133"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[104100, 2116, 280, 7, 35, "Input"],
+Cell[104383, 2125, 1957, 56, 48, "Output"]
 }, Open  ]]
 }
 ]
