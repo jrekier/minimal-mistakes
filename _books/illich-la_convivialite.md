@@ -6,7 +6,7 @@ header:
   og_image: /images/book-covers/Illich_la_convivialite.jpg
 #classes: wide
 date: "2019-08-12"
-#tags: ecology society
+tags: ecology society
 use_math : true
 style : "text-align: justify;"
 
