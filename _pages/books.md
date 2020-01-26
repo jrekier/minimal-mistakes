@@ -7,6 +7,10 @@ header:
   overlay_filter: 0.5
 collection: books
 entries_layout: grid
+
+author_profile: false
+#sidebar:
+#  - title: "Latest books"
 ---
 
 # This page
