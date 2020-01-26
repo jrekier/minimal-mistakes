@@ -7,12 +7,7 @@ header:
   caption: "Image credit: [**Tyler Young**](https://www.deviantart.com/tylercreatesworlds/gallery/)"
 use_math: true
 
-author_profile: false
-sidebar:
-  - title: "Ivan Illich : La convivialité (fr)"
-    image: /images/book-covers/Illich_la_convivialite.jpg
-    image_alt: "image"
-    text: "Editions du Seuil (Points), 1973."
+author_profile: true
 
 feature_row:
   - image_path: /images/headers/banner-planet_tn.jpg
@@ -50,11 +45,3 @@ feature_row:
 </p>
 
 <!-- {% include feature_row %} -->
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
