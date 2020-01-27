@@ -11,14 +11,14 @@ classes: wide
 
 # This website
 
-This is a personal page where I share thoughts and ideas on topics that interest me. I am a physicist by training which explains why most of my posts deal with science and mathematics. I also share personal reviews of some of the books that I have read. Mostly essays on politics, economics and society.
+This is a personal page where I share thoughts and ideas on topics that interest me. I also share personal reviews of some of the books that I have read. I am a physicist by training which explains why many of my posts have to do with science and mathematics.
 
 # The author
 
 ![earth]({{ site.url }}{{ site.baseurl }}/images/earth-interior.jpg){: .align-right width="400"}
-I am currently a postdoc at the Royal Observatory of Belgium where I do research on the dynamics of the deep interior of the Earth and other planets or moons. I specialise in mathematical modelling based on the resolution of dynamical systems of partial differential equations, using analytical and numerical methods. My main focus is to study of the fluid dynamics of the liquid layers of planets (core and ocean) and their interactionwith tides, rotation and magnetic fields.
+I am currently a postdoc at the Royal Observatory of Belgium where I do research on the dynamics of the deep interior of the Earth, other planets and moons. I specialize in mathematical modeling based on the resolution of partial differential equations, using analytical and numerical methods. My main focus is to study of the fluid dynamics of the liquid layers of planets (core and ocean) and their interaction with tides, rotation and magnetic fields.
 
-Before I occupied my current position, I obtained my PhD from the University of Namur working on the applications of techniques from numerical relativity to problems of cosmology. More specifically, I built numerical model to study how large objects like galaxies or cluster of galaxies can form inside a Universe in expansion.
+I did my PhD on the applications of numerical relativity to problems of cosmology. More specifically, I built numerical model to study how large objects like galaxies or cluster of galaxies can form in an expanding Universe.
 
 ## List of publications
 
