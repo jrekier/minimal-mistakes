@@ -12,7 +12,7 @@ tags: math
 
 I have written a <tt>Mathematica</tt> package to perform basic computations in Riemannian geometry. In this post, I share an example of computation that this code can be used for and a link to the package containing the instructions to reproduce the computation presented here.
 
-### in details :
+### in detail :
 
 I started a Mathematica package to performs computations of Riemannian geometry. As an exercise in using it, I present here the computation of the curvature of a 2-sphere embedded in the euclidean space. The package is in development and its content is not meant to be exhaustive. This suffices however to perform some of the most basic computations on (pseudo-)Riemannian real manifolds. The package is available in its own [git repository](https://github.com/jrekier/Riemann).
 

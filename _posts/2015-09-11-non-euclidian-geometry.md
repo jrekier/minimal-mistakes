@@ -8,11 +8,11 @@ categories: blog
 tags: math physics
 ---
 
-### in short
+### in short :
 
 Euclid's axioms describe the geometry of shapes and curves in simple mathematical spaces which are called *flat*. When one considers more complex spaces, these axioms are no longer adequate. I illustrate this by looking at the special case where the mathematical space is a *two-sheet hyperboloid*. Focusing on Euclid's fifth axiom, I show how, in that space, there is not just one straight-line that is parallel to another, but an infinity. This provides an opportunity to introduce the concept of *stereographic projection*.
 
-### in details
+### in detail :
 
 When geometry is taught in school, it focuses on the rules that defines simple forms like squares, triangles or other shapes that can be drawn on a sheet of paper, or solids that can be represented in 3D.
 

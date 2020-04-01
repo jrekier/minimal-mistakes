@@ -14,7 +14,7 @@ tags: math
 
 I solve a relatively simple problem of geometry inspired by a culinary example from everyday life and find that the final answer has no closed analytical form. This illustrates how unexpected difficulties can emerge even in simple problems.
 
-### in details :
+### in detail :
 
 <!-- ![waffle]({{ site.url }}{{ site.baseurl }}/images/posts_data/waffle-conundrum/waffle.jpg){: .align-left width="200"} -->
 This one was suggested by my friend Xavier :)

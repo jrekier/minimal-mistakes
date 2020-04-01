@@ -12,7 +12,7 @@ tags: math physics
 
 The equations that describe the dynamics of a point particle in space must be adapted when the motion is observed from an accelerated frame of reference. I give an illustration of this by considering the motion of a free particle relative to a frame rotating at a constant angular velocity around the origin of coordinates.
 
-### in details :
+### in detail :
 
 The most natural way of formulating Newton's laws of classical dynamics is to express the motion of particle relative to a frame of reference that is at rest (or has a constant velocity relative to some other frame). Such a frame is referred to as an *inertial frame of reference*. In some cases, however, it is easier to describe the motion relative to accelerated frames. Such is the case, for example, when one is interested in the motion of the atmosphere relative to the surface of the Earth, which is subjected to an acceleration caused by its diurnal rotation (the so-called *centripetal acceleration*).
 

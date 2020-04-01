@@ -12,7 +12,7 @@ tags: math
 
 I share a practical experiment of differential geometry by looking at two rubber bands on a table. This provides an opportunity to illustrate a theorem about the total curvature of closed curves.
 
-### in details :
+### in detail :
 
 This post is something I have been meaning to share for a while.
 One day I had carried my meal to work in a lousy box which I kept closed with two rubber bands. I started playing with the rubber bands and noticed that, when I want tried to fit in one within the contour of the other, the following happened.

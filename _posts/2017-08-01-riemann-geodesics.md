@@ -16,7 +16,7 @@ tags: math physics
 
 Using the [Riemann package to do Riemannian geometry]({{ site.baseurl }}{% post_url 2017-07-16-extrinsic-curvature %}), one can easily perform computations in General Realtivity. In this post, I am going to show how it can be used to compute the geodesics of the Schwarzschild space-time.
 
-### in details :
+### in detail :
 
 One important aspect of General Relativity is the computation of geodesics from a given metric of space-time. I will go through the details of how it can be done using the [Riemann package](https://github.com/jrekier/Riemann).
 

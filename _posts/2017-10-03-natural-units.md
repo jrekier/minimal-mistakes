@@ -10,11 +10,11 @@ tags: math physics
 #  teaser: /images/headers/physics.jpg
 ---
 
-### in short
+### in short :
 
 I give a short description of dimensional analysis and how it can be used to check the mathematics of computations in physics and also how it can be used to simplify the equations by getting rid of constant parameters.
 
-### in details
+### in detail :
 
 When dealing with equations in physics, checking our units is an excellent way of looking for errors. For example, suppose we were to for the trajectory of an object dropped from the top of a cliff of height $h$. If we assume that the object is initially at rest, we would arrive at:
 

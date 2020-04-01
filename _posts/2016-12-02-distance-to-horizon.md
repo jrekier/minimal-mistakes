@@ -12,7 +12,7 @@ tags: math physics
 
 I compute the distance of the horizon to an observer on the shore using trigonometry. I try to give a solution that is slightly more accurate than the classic way of the classic one based on Pythagora's theorem and compare the two results.
 
-### in details :
+### in detail :
 
 When you are stading on a beach, you can sometimes see ships disappearing behind the horizon. If we could measure the distance at which the ship completely disappears from our line of sight, we could infer the radius of the Earth. In this post, I want to do the opposite and infer the distance to the horizon based on our knowledge of the Earth radius. I had this idea while on holiday in Melbourne with my friend Jojo and we worked out the following computation together :)
 

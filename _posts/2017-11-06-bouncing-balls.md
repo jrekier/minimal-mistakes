@@ -14,7 +14,7 @@ tags: math physics
 
 Starting from the common experience of hearing an object bouncing off the ground, I build a toy model to compute the amount of energy lost by the object along its course. This leads me to ponder about the possibility for the object to experience an infinite amount of rebounds in a finite amount of time.
 
-### in details :
+### in detail :
 
 Everyone has heard the sound of a ball bouncing off the floor after being dropped from a certain height. This makes a distinctive *thud—thud—thud-thu-th-tt-tt-t-…* with the sound of every rebound coming closer to the next in time. This is due to the fact that the ball loses some of its energy at each rebound. In this post, I give a very simplistic model for this and hopefully learn something along the way.
 

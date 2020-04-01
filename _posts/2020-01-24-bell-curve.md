@@ -14,7 +14,7 @@ use_math: true
 
 I work out some of the properties of the gaussian function from its generating differential equation.
 
-### in details :
+### in detail :
 
 In the [previous post]({{ site.baseurl }}{% post_url 2020-01-06-exponential %}), I wrote about the exponential and its definition as the function proportional to its first derivative, namely:
 

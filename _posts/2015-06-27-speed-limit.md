@@ -13,7 +13,7 @@ tags: math physics
 
 I talk about the mathematics describing what happens when a massive objects is accelerated at a steady rate and how it behaves when its velocity reaches that of light. When one works from the principle of special relativity, one finds that, although the acceleration remains constant, the velocity increases slower and slower in time.
 
-### in details :
+### in detail :
 
 It is a notorious fact that the speed of light is supposed to be the ultimate 'speed limit' of the Universe. This fact calls for the following question: What happens when an object is acted upon with a force of constant intensity and direction ?
 

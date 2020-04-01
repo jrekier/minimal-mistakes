@@ -12,7 +12,7 @@ tags: programming
 
 I created a way to parse input files to <tt>Fotran</tt> more flexibly. The code is available [here](https://github.com/jrekier/inputf90). In this post, I go through some of the details of most of the code blocks.
 
-### in details
+### in detail :
 
 <tt>Fortran</tt> is the first programming language that I was taught at University. I grew tired of it when I was introduced to more flexible languages like <tt>Python</tt> but as I got older, I found myself going back to <tt>Fortran</tt>, principally for the feeling of solidity that it provides.
 
