@@ -51,7 +51,7 @@ $$
 
 This is a particular example of the [logistic differential equation](https://en.wikipedia.org/wiki/Logistic_function#Logistic_differential_equation). If we ignore the second term on the right-hand side for a moment and compare what remains with our [well-known equation for the exponential growth]({{ site.baseurl }}{% post_url 2020-01-06-exponential %}), we can identify the combination $(\beta-\gamma)$ as the growth rate. There are two possible behaviours: either $\beta>\alpha$ and so the solution grows exponentially, or $\beta<\alpha$ and the solution decays exponentially in time. Either of those two behaviours dominates when $i$ is small. When it $i$ approaches $1$, the decaying effect of the second term kicks in and dominates over the first term. The two behaviours are represented on the following figure.
 
-![SIS]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIS.png){: .align-center}
+![SIS]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIS2.png){: .align-center}
 
 The area in orange represents the fraction of *infected* people in the population over time and the area in blue represent the fraction of the population that are not infected and are *susceptible* to be. In both cases, the fraction of infected people starts at $i_0=1\%$. On the left plot, the number of infected decays very rapidly from the start so that the blue area clearly dominates at all time. On the right plot, the number of infected people grows very rapidly at first and then reaches a kind of equilibrium between the patients that are susceptible and those that are infected. This equilibrium happens when the flux of newly infected people is equal to the flux of people that become cured, *i.e.* when $\beta is=\gamma i$, or equivalently:
 
@@ -88,13 +88,13 @@ $$
 
 where we have inserted the definition of $R_0$. The value of this quantity at the beginning of the epidemic determines its dynamics, as we can see on the following figure:
 
-![SIR]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIR.png){: .align-center}
+![SIR]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIR2.png){: .align-center}
 
 On the left, we can see the situation when $R_0=\frac{0.1}{s_0}$, where $s_0$ represents the fraction of susceptible patients at initial time.  In such case the people that are infected quickly recover, after what they cease to be infection and the number of cases remains small. The situation on the right is quite different. In that case, we have $R_0=\frac{10}{s_0}$, which means that people become infected quicker than they recover and we end up with a proper epidemic. The threshold between those two regimes corresponds to $R_0=\frac{1}{s_0}$.
 
 At the moment of writing this note, we are in the middle of a global epidemic of covid-19. A recent estimate heard on the radio mentions that half of the worldwide population lives currently isolated. We are obviously faced with a very infectious disease. We can sometimes see on the news that the isolation measures aim to *flatten the curve*. This statement can be understood by considering the effect that isolation has on the value of $R_0$. We have seen that this parameter depends on both $\beta$ and $\gamma$. The latter of which represents the rapidity with which people recover from the illness. It is perhaps easier to understand if we identify $\tau_R=\gamma^{-1}$ as the typical time before recovery. It is typically very difficult to influence this parameter except by significantly improving the care provided to patients or by inventing a new drug or vaccine. At any rate, such changes in $\gamma$ usually take a lot of time. It is more straightforward to influence the value of $\tau_C=\beta^{-1}$ which represents the typical time between transmissions of the virus from one infected to one susceptible person. Having people stay at home increases this time of contact and thus reduces $\beta$ and so $R_0$. The effect can be seen on the following animated figure.
 
-![SIR]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIR.gif){: .align-center}
+![SIR]({{ site.url }}{{ site.baseurl }}/images/posts_data/epidemiology-model/SIR2.gif){: .align-center}
 
 We can see that the peak of the epidemic gets lower and lower as $\beta$ decreases. There are clearly two scenarios possible. If we manage to keep the curve very flat, the percentage of the population that is infected remains relatively small at all time. It can even be so low that most people get through the epidemic without ever being infected. On the other hand, if we are unable to flatten the curve, the number of infected patients can go very high, after what the number of susceptible people approaches zero rapidly indicating that most people have become infected and recovered and so the epidemic dies out. A situation called *herd immunity*.
 
