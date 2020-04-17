@@ -67,7 +67,7 @@ Ce que l’on appellera plus tard la *révolution conservatrice* n’aurait pas 
 >
 > — Serge Halimi, chapître V, les idées et les moyens.
 
-<figure style="width: 200px" class="align-left">
+<figure style="width: 200px" class="align-right">
   <img src="{{ site.url }}{{ site.baseurl }}/images/posts_data/halimi-le-grand-bond-en-arriere/Hayek.jpeg" alt="hayek">
   <figcaption>Friedrich Von Hayek, l'un des pères du néolibéralisme.</figcaption>
 </figure>

@@ -10,9 +10,11 @@ $sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Robo
 
 $computer-modern-serif    : "Computer Modern", serif; // LaTeX font family
 $computer-modern-concrete : "Computer Modern Concrete", serif; // LaTeX font family (concrete)
+$baskerville              : "Libre Baskerville", serif; // see madsamurai theme template
 
-$global-font-family : $computer-modern-concrete;
+// $global-font-family : $computer-modern-concrete;
 // $global-font-family : $serif;
+$global-font-family : $baskerville;
 $header-font-family : $sans-serif-narrow;
 // $paragraph-indent : true;
 
@@ -20,3 +22,24 @@ $header-font-family : $sans-serif-narrow;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// start customisation here
+
+html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}
+
+
+// end customisation here
