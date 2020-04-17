@@ -9,9 +9,10 @@ $serif              : "PT Serif", Georgia, Times, serif;
 $sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
 $computer-modern-serif    : "Computer Modern", serif; // LaTeX font family
+$computer-modern-concrete : "Computer Modern Concrete", serif; // LaTeX font family (concrete)
 
-// $global-font-family : $computer-modern-serif;
-$global-font-family : $serif;
+$global-font-family : $computer-modern-concrete;
+// $global-font-family : $serif;
 $header-font-family : $sans-serif-narrow;
 // $paragraph-indent : true;
 
