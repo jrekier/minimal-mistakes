@@ -8,12 +8,13 @@
 $serif              : "PT Serif", Georgia, Times, serif;
 $sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
-$computer-modern-serif    : "Computer Modern", serif;
+$computer-modern-serif    : "Computer Modern", serif; // LaTeX font family
 
-$global-font-family : $computer-modern-serif; //$serif;
+// $global-font-family : $computer-modern-serif;
+$global-font-family : $serif;
 $header-font-family : $sans-serif-narrow;
-
 // $paragraph-indent : true;
+
 // end customisation here
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
