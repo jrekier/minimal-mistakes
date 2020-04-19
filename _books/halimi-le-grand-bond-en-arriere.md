@@ -3,7 +3,6 @@ title: "Serge Halimi : Le grand bond en arrière (fr)"
 excerpt: " "
 header:
   teaser: /images/book-covers/halimi-le-grand-bond-en-arriere.gif
-
   og_image: /images/book-covers/halimi-le-grand-bond-en-arriere.gif
 #classes: wide
 date: "2020-01-14"
