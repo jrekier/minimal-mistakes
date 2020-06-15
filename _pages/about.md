@@ -22,6 +22,9 @@ I did my PhD on the applications of numerical relativity to problems of cosmolog
 
 ## List of publications
 
+Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2020). [Inertial modes of a freely rotating ellipsoidal planet and their relation to nutations. The Planetary Science Journal, 1(1), 20](https://doi.org/10.3847/PSJ/ab93c8)
+[[arXiv:2004.08218](https://arxiv.org/abs/2004.08218)]
+
 Rekier, J., Trinh, A., Triana, S. A., & Dehant, V. (2019). [Internal energy dissipation in Enceladus's subsurface ocean from tides and libration & the role of inertial waves. Journal of Geophysical Research: Planets, 124.](https://doi.org/10.1029/2019JE005988) [[arXiv:1904.02487](https://arxiv.org/abs/1904.02487)]
 
 Triana, S. A., Rekier, J., Trinh, A., & Dehant, V. (2019). [The coupling between inertial and rotational eigenmodes in planets with liquid cores. Geophysical Journal International, 218(2), 1071–1086.](https://doi.org/10.1093/gji/ggz212) [[arXiv:1904.11837](https://arxiv.org/abs/1904.11837)]
